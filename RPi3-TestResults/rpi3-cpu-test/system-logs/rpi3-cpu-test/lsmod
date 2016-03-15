@@ -1,0 +1,23 @@
+Module                  Size  Used by
+i2c_bcm2708             4920  0 
+bnep                   10336  2 
+hci_uart               13533  1 
+btbcm                   4196  1 hci_uart
+bluetooth             317981  22 bnep,btbcm,hci_uart
+brcmfmac              177546  0 
+brcmutil                5501  1 brcmfmac
+evdev                  10278  4 
+joydev                  9024  0 
+cfg80211              389253  1 brcmfmac
+rfkill                 16036  4 cfg80211,bluetooth
+snd_bcm2835            19802  3 
+snd_pcm                73442  1 snd_bcm2835
+bcm2835_gpiomem         2860  0 
+bcm2835_rng             1763  0 
+snd_timer              18792  1 snd_pcm
+snd                    50779  9 snd_bcm2835,snd_timer,snd_pcm
+uio_pdrv_genirq         2944  0 
+uio                     7753  1 uio_pdrv_genirq
+i2c_dev                 5671  0 
+fuse                   80694  3 
+ipv6                  338574  30 

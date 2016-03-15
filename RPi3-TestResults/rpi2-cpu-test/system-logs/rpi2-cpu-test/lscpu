@@ -1,0 +1,10 @@
+Architecture:          armv7l
+Byte Order:            Little Endian
+CPU(s):                4
+On-line CPU(s) list:   0-3
+Thread(s) per core:    1
+Core(s) per socket:    4
+Socket(s):             1
+Model name:            ARMv7 Processor rev 5 (v7l)
+CPU max MHz:           900.0000
+CPU min MHz:           600.0000

@@ -1,0 +1,719 @@
+Booting Linux on physical CPU 0x0
+Initializing cgroup subsys cpuset
+Initializing cgroup subsys cpu
+Initializing cgroup subsys cpuacct
+Linux version 4.1.18-v7+ (dc4@dc4-XPS13-9333) (gcc version 4.9.3 (crosstool-NG crosstool-ng-1.22.0-88-g8460611) ) #846 SMP Thu Feb 25 14:22:53 GMT 2016
+CPU: ARMv7 Processor [410fd034] revision 4 (ARMv7), cr=10c5383d
+CPU: PIPT / VIPT nonaliasing data cache, VIPT aliasing instruction cache
+Machine model: Raspberry Pi 3 Model B Rev 1.2
+cma: Reserved 8 MiB at 0x3a400000
+Memory policy: Data cache writealloc
+On node 0 totalpages: 241664
+free_area_init_node: node 0, pgdat 80876f80, node_mem_map b9bb4000
+  Normal zone: 2124 pages used for memmap
+  Normal zone: 0 pages reserved
+  Normal zone: 241664 pages, LIFO batch:31
+[bcm2709_smp_init_cpus] enter (9420->f3003010)
+[bcm2709_smp_init_cpus] ncores=4
+PERCPU: Embedded 12 pages/cpu @bafb0000 s20416 r8192 d20544 u49152
+pcpu-alloc: s20416 r8192 d20544 u49152 alloc=12*4096
+pcpu-alloc: [0] 0 [0] 1 [0] 2 [0] 3 
+Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 239540
+PID hash table entries: 4096 (order: 2, 16384 bytes)
+Dentry cache hash table entries: 131072 (order: 7, 524288 bytes)
+Inode-cache hash table entries: 65536 (order: 6, 262144 bytes)
+Memory: 939416K/966656K available (6024K kernel code, 534K rwdata, 1660K rodata, 448K init, 757K bss, 19048K reserved, 8192K cma-reserved)
+Virtual kernel memory layout:
+    vector  : 0xffff0000 - 0xffff1000   (   4 kB)
+    fixmap  : 0xffc00000 - 0xfff00000   (3072 kB)
+    vmalloc : 0xbb800000 - 0xff000000   (1080 MB)
+    lowmem  : 0x80000000 - 0xbb000000   ( 944 MB)
+    modules : 0x7f000000 - 0x80000000   (  16 MB)
+      .text : 0x80008000 - 0x807895a0   (7686 kB)
+      .init : 0x8078a000 - 0x807fa000   ( 448 kB)
+      .data : 0x807fa000 - 0x8087fac0   ( 535 kB)
+       .bss : 0x80882000 - 0x8093f79c   ( 758 kB)
+SLUB: HWalign=64, Order=0-3, MinObjects=0, CPUs=4, Nodes=1
+Hierarchical RCU implementation.
+	Additional per-CPU info printed with stalls.
+NR_IRQS:608
+Architected cp15 timer(s) running at 19.20MHz (phys).
+clocksource arch_sys_counter: mask: 0xffffffffffffff max_cycles: 0x46d987e47, max_idle_ns: 440795202767 ns
+sched_clock: 56 bits at 19MHz, resolution 52ns, wraps every 4398046511078ns
+Switching to timer-based delay loop, resolution 52ns
+Console: colour dummy device 80x30
+console [tty1] enabled
+Calibrating delay loop (skipped), value calculated using timer frequency.. 38.40 BogoMIPS (lpj=192000)
+pid_max: default: 32768 minimum: 301
+Mount-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Mountpoint-cache hash table entries: 2048 (order: 1, 8192 bytes)
+Initializing cgroup subsys blkio
+Initializing cgroup subsys memory
+Initializing cgroup subsys devices
+Initializing cgroup subsys freezer
+Initializing cgroup subsys net_cls
+CPU: Testing write buffer coherency: ok
+ftrace: allocating 20309 entries in 60 pages
+CPU0: update cpu_capacity 1024
+CPU0: thread -1, cpu 0, socket 0, mpidr 80000000
+[bcm2709_smp_prepare_cpus] enter
+Setting up static identity map for 0x8240 - 0x8274
+[bcm2709_boot_secondary] cpu:1 started (0) 18
+[bcm2709_secondary_init] enter cpu:1
+CPU1: update cpu_capacity 1024
+CPU1: thread -1, cpu 1, socket 0, mpidr 80000001
+[bcm2709_boot_secondary] cpu:2 started (0) 17
+[bcm2709_secondary_init] enter cpu:2
+CPU2: update cpu_capacity 1024
+CPU2: thread -1, cpu 2, socket 0, mpidr 80000002
+[bcm2709_boot_secondary] cpu:3 started (0) 17
+[bcm2709_secondary_init] enter cpu:3
+CPU3: update cpu_capacity 1024
+CPU3: thread -1, cpu 3, socket 0, mpidr 80000003
+Brought up 4 CPUs
+SMP: Total of 4 processors activated (153.60 BogoMIPS).
+CPU: All CPU(s) started in HYP mode.
+CPU: Virtualization extensions available.
+devtmpfs: initialized
+VFP support v0.3: implementor 41 architecture 3 part 40 variant 3 rev 4
+clocksource jiffies: mask: 0xffffffff max_cycles: 0xffffffff, max_idle_ns: 19112604462750000 ns
+pinctrl core: initialized pinctrl subsystem
+NET: Registered protocol family 16
+DMA: preallocated 4096 KiB pool for atomic coherent allocations
+bcm2709.uart_clock = 48000000
+bcm2709: Mini UART enabled
+hw-breakpoint: found 5 (+1 reserved) breakpoint and 4 watchpoint registers.
+hw-breakpoint: maximum watchpoint size is 8 bytes.
+3f201000.uart: ttyAMA0 at MMIO 0x3f201000 (irq = 83, base_baud = 0) is a PL011 rev2
+bcm2835-mbox 3f00b880.mailbox: mailbox enabled
+bcm2708-dmaengine 3f007000.dma: DMA legacy API manager at f3007000, dmachans=0xf35
+bcm2708-dmaengine 3f007000.dma: Initialized 7 DMA channels (+ 1 legacy)
+bcm2708-dmaengine 3f007000.dma: Load BCM2835 DMA engine driver
+bcm2708-dmaengine 3f007000.dma: dma_debug:0
+SCSI subsystem initialized
+usbcore: registered new interface driver usbfs
+usbcore: registered new interface driver hub
+usbcore: registered new device driver usb
+raspberrypi-firmware soc:firmware: Attached to firmware from 2016-02-25 14:25
+Switched to clocksource arch_sys_counter
+FS-Cache: Loaded
+CacheFiles: Loaded
+NET: Registered protocol family 2
+TCP established hash table entries: 8192 (order: 3, 32768 bytes)
+TCP bind hash table entries: 8192 (order: 4, 65536 bytes)
+TCP: Hash tables configured (established 8192 bind 8192)
+UDP hash table entries: 512 (order: 2, 16384 bytes)
+UDP-Lite hash table entries: 512 (order: 2, 16384 bytes)
+NET: Registered protocol family 1
+RPC: Registered named UNIX socket transport module.
+RPC: Registered udp transport module.
+RPC: Registered tcp transport module.
+RPC: Registered tcp NFSv4.1 backchannel transport module.
+hw perfevents: enabled with armv7_cortex_a7 PMU driver, 7 counters available
+futex hash table entries: 1024 (order: 4, 65536 bytes)
+VFS: Disk quotas dquot_6.6.0
+VFS: Dquot-cache hash table entries: 1024 (order 0, 4096 bytes)
+FS-Cache: Netfs 'nfs' registered for caching
+NFS: Registering the id_resolver key type
+Key type id_resolver registered
+Key type id_legacy registered
+Block layer SCSI generic (bsg) driver version 0.4 loaded (major 252)
+io scheduler noop registered
+io scheduler deadline registered (default)
+io scheduler cfq registered
+BCM2708FB: allocated DMA memory fa800000
+BCM2708FB: allocated DMA channel 0 @ f3007000
+Console: switching to colour frame buffer device 228x61
+console [ttyS0] disabled
+3f215040.uart: ttyS0 at MMIO 0x3f215040 (irq = 29, base_baud = 50000000) is a 16550
+console [ttyS0] enabled
+vc-cma: Videocore CMA driver
+vc-cma: vc_cma_base      = 0x00000000
+vc-cma: vc_cma_size      = 0x00000000 (0 MiB)
+vc-cma: vc_cma_initial   = 0x00000000 (0 MiB)
+vc-mem: phys_addr:0x00000000 mem_base=0x3dc00000 mem_size:0x3f000000(1008 MiB)
+brd: module loaded
+loop: module loaded
+vchiq: vchiq_init_state: slot_zero = 0xba880000, is_master = 0
+Loading iSCSI transport class v2.0-870.
+usbcore: registered new interface driver smsc95xx
+dwc_otg: version 3.00a 10-AUG-2012 (platform bus)
+Core Release: 2.80a
+Setting default values for core params
+Finished setting default values for core params
+Using Buffer DMA mode
+Periodic Transfer Interrupt Enhancement - disabled
+Multiprocessor Interrupt Enhancement - disabled
+OTG VER PARAM: 0, OTG VER FLAG: 0
+Dedicated Tx FIFOs mode
+WARN::dwc_otg_hcd_init:1047: FIQ DMA bounce buffers: virt = 0xba814000 dma = 0xfa814000 len=9024
+FIQ FSM acceleration enabled for :
+Non-periodic Split Transactions
+Periodic Split Transactions
+High-Speed Isochronous Endpoints
+dwc_otg: Microframe scheduler enabled
+WARN::hcd_init_fiq:412: FIQ on core 1 at 0x8040ecc0
+WARN::hcd_init_fiq:413: FIQ ASM at 0x8040f030 length 36
+WARN::hcd_init_fiq:438: MPHI regs_base at 0xbb89c000
+dwc_otg 3f980000.usb: DWC OTG Controller
+dwc_otg 3f980000.usb: new USB bus registered, assigned bus number 1
+dwc_otg 3f980000.usb: irq 32, io mem 0x00000000
+Init: Port Power? op_state=1
+Init: Power Port (0)
+usb usb1: New USB device found, idVendor=1d6b, idProduct=0002
+usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+usb usb1: Product: DWC OTG Controller
+usb usb1: Manufacturer: Linux 4.1.18-v7+ dwc_otg_hcd
+usb usb1: SerialNumber: 3f980000.usb
+hub 1-0:1.0: USB hub found
+hub 1-0:1.0: 1 port detected
+dwc_otg: FIQ enabled
+dwc_otg: NAK holdoff enabled
+dwc_otg: FIQ split-transaction FSM enabled
+Module dwc_common_port init
+usbcore: registered new interface driver usb-storage
+mousedev: PS/2 mouse device common for all mice
+bcm2835-cpufreq: min=600000 max=1200000
+sdhci: Secure Digital Host Controller Interface driver
+sdhci: Copyright(c) Pierre Ossman
+sdhost: log_buf @ ba813000 (fa813000)
+mmc0: sdhost-bcm2835 loaded - DMA enabled (>1)
+mmc-bcm2835 3f300000.mmc: mmc_debug:0 mmc_debug2:0
+Indeed it is in host mode hprt0 = 00021501
+mmc-bcm2835 3f300000.mmc: DMA channels allocated
+mmc0: host does not support reading read-only switch, assuming write-enable
+mmc0: new high speed SDHC card at address 0007
+sdhci-pltfm: SDHCI platform and OF driver helper
+ledtrig-cpu: registered to indicate activity on CPUs
+hidraw: raw HID events driver (C) Jiri Kosina
+usbcore: registered new interface driver usbhid
+usbhid: USB HID core driver
+Initializing XFRM netlink socket
+NET: Registered protocol family 17
+Key type dns_resolver registered
+Registering SWP/SWPB emulation handler
+registered taskstats version 1
+vc-sm: Videocore shared memory driver
+[vc_sm_connected_init]: start
+[vc_sm_connected_init]: end - returning 0
+usb 1-1: new high-speed USB device number 2 using dwc_otg
+Indeed it is in host mode hprt0 = 00001101
+Waiting for root device /dev/mmcblk0p7...
+mmcblk0: mmc0:0007 SD16G 14.5 GiB 
+ mmcblk0: p1 p2 < p5 p6 p7 >
+mmc1: queuing unknown CIS tuple 0x80 (2 bytes)
+mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+mmc1: queuing unknown CIS tuple 0x80 (3 bytes)
+mmc1: queuing unknown CIS tuple 0x80 (7 bytes)
+EXT4-fs (mmcblk0p7): mounted filesystem with ordered data mode. Opts: (null)
+VFS: Mounted root (ext4 filesystem) readonly on device 179:7.
+devtmpfs: mounted
+usb 1-1: New USB device found, idVendor=0424, idProduct=9514
+Freeing unused kernel memory: 448K (8078a000 - 807fa000)
+usb 1-1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+hub 1-1:1.0: USB hub found
+hub 1-1:1.0: 5 ports detected
+mmc1: new high speed SDIO card at address 0001
+usb 1-1.1: new high-speed USB device number 3 using dwc_otg
+random: systemd urandom read with 48 bits of entropy available
+usb 1-1.1: New USB device found, idVendor=0424, idProduct=ec00
+usb 1-1.1: New USB device strings: Mfr=0, Product=0, SerialNumber=0
+smsc95xx v1.0.4
+systemd[1]: systemd 215 running in system mode. (+PAM +AUDIT +SELINUX +IMA +SYSVINIT +LIBCRYPTSETUP +GCRYPT +ACL +XZ -SECCOMP -APPARMOR)
+systemd[1]: Detected architecture 'arm'.
+smsc95xx 1-1.1:1.0 eth0: register 'smsc95xx' at usb-3f980000.usb-1.1, smsc95xx USB 2.0 Ethernet, b8:27:eb:ef:10:40
+usb 1-1.3: new full-speed USB device number 4 using dwc_otg
+NET: Registered protocol family 10
+systemd[1]: Inserted module 'ipv6'
+systemd[1]: Set hostname to <raspberrypi>.
+usb 1-1.3: New USB device found, idVendor=046d, idProduct=c52b
+usb 1-1.3: New USB device strings: Mfr=1, Product=2, SerialNumber=0
+usb 1-1.3: Product: USB Receiver
+usb 1-1.3: Manufacturer: Logitech
+input: Logitech USB Receiver as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.3/1-1.3:1.0/0003:046D:C52B.0001/input/input0
+hid-generic 0003:046D:C52B.0001: input,hidraw0: USB HID v1.11 Keyboard [Logitech USB Receiver] on usb-3f980000.usb-1.3/input0
+input: Logitech USB Receiver as /devices/platform/soc/3f980000.usb/usb1/1-1/1-1.3/1-1.3:1.1/0003:046D:C52B.0002/input/input1
+hid-generic 0003:046D:C52B.0002: input,hiddev0,hidraw1: USB HID v1.11 Mouse [Logitech USB Receiver] on usb-3f980000.usb-1.3/input1
+hid-generic 0003:046D:C52B.0003: hiddev0,hidraw2: USB HID v1.11 Device [Logitech USB Receiver] on usb-3f980000.usb-1.3/input2
+systemd[1]: Expecting device dev-ttyS0.device...
+systemd[1]: Starting Forward Password Requests to Wall Directory Watch.
+systemd[1]: Started Forward Password Requests to Wall Directory Watch.
+systemd[1]: Starting Remote File Systems (Pre).
+systemd[1]: Reached target Remote File Systems (Pre).
+systemd[1]: Starting Arbitrary Executable File Formats File System Automount Point.
+systemd[1]: Set up automount Arbitrary Executable File Formats File System Automount Point.
+systemd[1]: Starting Encrypted Volumes.
+systemd[1]: Reached target Encrypted Volumes.
+systemd[1]: Starting Swap.
+systemd[1]: Reached target Swap.
+systemd[1]: Expecting device dev-mmcblk0p6.device...
+systemd[1]: Starting Root Slice.
+systemd[1]: Created slice Root Slice.
+systemd[1]: Starting User and Session Slice.
+systemd[1]: Created slice User and Session Slice.
+systemd[1]: Starting /dev/initctl Compatibility Named Pipe.
+systemd[1]: Listening on /dev/initctl Compatibility Named Pipe.
+systemd[1]: Starting Delayed Shutdown Socket.
+systemd[1]: Listening on Delayed Shutdown Socket.
+systemd[1]: Starting Journal Socket (/dev/log).
+systemd[1]: Listening on Journal Socket (/dev/log).
+systemd[1]: Starting udev Control Socket.
+systemd[1]: Listening on udev Control Socket.
+systemd[1]: Starting udev Kernel Socket.
+systemd[1]: Listening on udev Kernel Socket.
+systemd[1]: Starting Journal Socket.
+systemd[1]: Listening on Journal Socket.
+systemd[1]: Starting System Slice.
+systemd[1]: Created slice System Slice.
+systemd[1]: Starting File System Check on Root Device...
+systemd[1]: Starting system-systemd\x2dfsck.slice.
+systemd[1]: Created slice system-systemd\x2dfsck.slice.
+systemd[1]: Starting system-autologin.slice.
+systemd[1]: Created slice system-autologin.slice.
+systemd[1]: Starting system-serial\x2dgetty.slice.
+systemd[1]: Created slice system-serial\x2dgetty.slice.
+systemd[1]: Starting Increase datagram queue length...
+systemd[1]: Starting Restore / save the current clock...
+systemd[1]: Starting Load Kernel Modules...
+systemd[1]: Started Set Up Additional Binary Formats.
+systemd[1]: Mounting POSIX Message Queue File System...
+systemd[1]: Starting udev Coldplug all Devices...
+systemd[1]: Starting Create list of required static device nodes for the current kernel...
+systemd[1]: Mounting Debug File System...
+systemd[1]: Mounted Huge Pages File System.
+systemd[1]: Starting Slices.
+fuse init (API version 7.23)
+systemd[1]: Reached target Slices.
+systemd[1]: Mounted Debug File System.
+systemd[1]: Mounted POSIX Message Queue File System.
+systemd[1]: Started Increase datagram queue length.
+systemd[1]: Started Create list of required static device nodes for the current kernel.
+i2c /dev entries driver
+systemd[1]: Started Restore / save the current clock.
+systemd[1]: Started Load Kernel Modules.
+systemd[1]: Started udev Coldplug all Devices.
+systemd[1]: Time has been changed
+systemd[1]: Started File System Check on Root Device.
+systemd[1]: Mounting FUSE Control File System...
+systemd[1]: Starting Apply Kernel Variables...
+systemd[1]: Mounting Configuration File System...
+systemd[1]: Starting Create Static Device Nodes in /dev...
+systemd[1]: Starting Syslog Socket.
+systemd[1]: Listening on Syslog Socket.
+systemd[1]: Starting Journal Service...
+systemd[1]: Started Journal Service.
+systemd-udevd[109]: starting version 215
+cfg80211: Calling CRDA to update world regulatory domain
+brcmfmac: brcmf_sdio_drivestrengthinit: No SDIO Drive strength init done for chip 43430 rev 1 pmurev 24
+usbcore: registered new interface driver brcmfmac
+brcmfmac: brcmf_c_preinit_dcmds: Firmware version = wl0: Dec 15 2015 18:10:45 version 7.45.41.23 (r606571) FWID 01-cc4eda9c
+brcmfmac: brcmf_cfg80211_reg_notifier: not a ISO3166 code
+bcm2835-rng 3f104000.rng: hwrng registered
+gpiomem-bcm2835 3f200000.gpiomem: Initialised: Registers at 0x3f200000
+brcmfmac: brcmf_cfg80211_reg_notifier: not a ISO3166 code
+cfg80211: World regulatory domain updated:
+cfg80211:  DFS Master region: unset
+cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+cfg80211:   (2457000 KHz - 2482000 KHz @ 40000 KHz), (N/A, 2000 mBm), (N/A)
+cfg80211:   (2474000 KHz - 2494000 KHz @ 20000 KHz), (N/A, 2000 mBm), (N/A)
+cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (N/A)
+cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2000 mBm), (0 s)
+cfg80211:   (5490000 KHz - 5730000 KHz @ 160000 KHz), (N/A, 2000 mBm), (0 s)
+cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (N/A, 2000 mBm), (N/A)
+cfg80211:   (57240000 KHz - 63720000 KHz @ 2160000 KHz), (N/A, 0 mBm), (N/A)
+random: nonblocking pool is initialized
+EXT4-fs (mmcblk0p7): re-mounted. Opts: (null)
+systemd-journald[107]: Received request to flush runtime journal from PID 1
+brcmfmac: brcmf_add_if: ERROR: netdev:wlan0 already exists
+brcmfmac: brcmf_add_if: ignore IF event
+uart-pl011 3f201000.uart: no DMA platform data
+Bluetooth: Core ver 2.20
+NET: Registered protocol family 31
+Bluetooth: HCI device and connection manager initialized
+Bluetooth: HCI socket layer initialized
+Bluetooth: L2CAP socket layer initialized
+Bluetooth: SCO socket layer initialized
+Bluetooth: HCI UART driver ver 2.3
+Bluetooth: HCI UART protocol H4 registered
+Bluetooth: HCI UART protocol Three-wire (H5) registered
+Bluetooth: HCI UART protocol BCM registered
+Adding 102396k swap on /var/swap.  Priority:-1 extents:1 across:102396k SSFS
+Bluetooth: BNEP (Ethernet Emulation) ver 1.3
+Bluetooth: BNEP filters: protocol multicast
+Bluetooth: BNEP socket layer initialized
+smsc95xx 1-1.1:1.0 eth0: hardware isn't capable of remote wakeup
+IPv6: ADDRCONF(NETDEV_UP): eth0: link is not ready
+EXT4-fs (mmcblk0p5): mounted filesystem with ordered data mode. Opts: (null)
+cfg80211: Calling CRDA for country: CA
+cfg80211: Regulatory domain changed to country: CA
+cfg80211:  DFS Master region: FCC
+cfg80211:   (start_freq - end_freq @ bandwidth), (max_antenna_gain, max_eirp), (dfs_cac_time)
+cfg80211:   (2402000 KHz - 2472000 KHz @ 40000 KHz), (N/A, 3000 mBm), (N/A)
+cfg80211:   (5170000 KHz - 5250000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 1700 mBm), (N/A)
+cfg80211:   (5250000 KHz - 5330000 KHz @ 80000 KHz, 160000 KHz AUTO), (N/A, 2400 mBm), (0 s)
+cfg80211:   (5490000 KHz - 5730000 KHz @ 160000 KHz), (N/A, 2400 mBm), (0 s)
+cfg80211:   (5735000 KHz - 5835000 KHz @ 80000 KHz), (N/A, 3000 mBm), (N/A)
+brcmfmac: brcmf_sdio_hdparse: seq 221: sequence number error, expect 220
+brcmfmac: brcmf_sdio_hdparse: seq 220: sequence number error, expect 222
+brcmfmac: brcmf_sdio_hdparse: seq 222: sequence number error, expect 221
+brcmfmac: brcmf_sdio_hdparse: seq 150: sequence number error, expect 149
+brcmfmac: brcmf_sdio_hdparse: seq 149: sequence number error, expect 151
+brcmfmac: brcmf_sdio_hdparse: seq 151: sequence number error, expect 150
+brcmfmac: brcmf_sdio_hdparse: seq 49: sequence number error, expect 48
+brcmfmac: brcmf_sdio_hdparse: seq 48: sequence number error, expect 50
+brcmfmac: brcmf_sdio_hdparse: seq 50: sequence number error, expect 49
+brcmfmac: brcmf_sdio_hdparse: seq 146: sequence number error, expect 145
+brcmfmac: brcmf_sdio_hdparse: seq 145: sequence number error, expect 147
+brcmfmac: brcmf_sdio_hdparse: seq 147: sequence number error, expect 146
+Alignment trap: not handling instruction f462ea6d at [<000d23c0>]
+Unhandled fault: alignment exception (0x001) at 0x6ef72418
+pgd = 8ae08000
+[6ef72418] *pgd=0ad2d831, *pte=0e45b55f, *ppte=0e45bc7e
+Alignment trap: not handling instruction f462ea6d at [<000d23c0>]
+Unhandled fault: alignment exception (0x001) at 0x6efb0418
+pgd = 8ad10000
+[6efb0418] *pgd=0ad82831, *pte=2700155f, *ppte=27001c7e
+Alignment trap: not handling instruction f462ea6d at [<000d23c0>]
+Unhandled fault: alignment exception (0x001) at 0x6ef81418
+pgd = 8afec000
+[6ef81418] *pgd=38009831, *pte=14eb655f, *ppte=14eb6c7e
+Alignment trap: not handling instruction f462ea6d at [<000d23c0>]
+Unhandled fault: alignment exception (0x001) at 0x6efc1418
+pgd = 8afec000
+[6efc1418] *pgd=0ade5831, *pte=12fea55f, *ppte=12feac7e
+Alignment trap: not handling instruction f462ea6d at [<000d23c0>]
+Unhandled fault: alignment exception (0x001) at 0x6eee4418
+pgd = 8ae08000
+[6eee4418] *pgd=0af47831, *pte=1f2d855f, *ppte=1f2d8c7e
+lxpanel invoked oom-killer: gfp_mask=0x201da, order=0, oom_score_adj=0
+lxpanel cpuset=/ mems_allowed=0
+CPU: 0 PID: 916 Comm: lxpanel Not tainted 4.1.18-v7+ #846
+Hardware name: BCM2709
+[<800184b8>] (unwind_backtrace) from [<80013ee0>] (show_stack+0x20/0x24)
+[<80013ee0>] (show_stack) from [<80569038>] (dump_stack+0xd4/0x118)
+[<80569038>] (dump_stack) from [<80568550>] (dump_header+0xc0/0x1ec)
+[<80568550>] (dump_header) from [<800f99b8>] (oom_kill_process+0x23c/0x460)
+[<800f99b8>] (oom_kill_process) from [<800f9ed4>] (__out_of_memory+0x278/0x3a8)
+[<800f9ed4>] (__out_of_memory) from [<800fa1ec>] (out_of_memory+0x68/0x80)
+[<800fa1ec>] (out_of_memory) from [<800febc4>] (__alloc_pages_nodemask+0x858/0x8f0)
+[<800febc4>] (__alloc_pages_nodemask) from [<800f847c>] (filemap_fault+0x238/0x4e0)
+[<800f847c>] (filemap_fault) from [<8011dcec>] (__do_fault+0x4c/0xb4)
+[<8011dcec>] (__do_fault) from [<80121458>] (handle_mm_fault+0x840/0x10c0)
+[<80121458>] (handle_mm_fault) from [<8056edec>] (do_page_fault+0x2e4/0x398)
+[<8056edec>] (do_page_fault) from [<800091e8>] (do_DataAbort+0x48/0xc4)
+[<800091e8>] (do_DataAbort) from [<8056e664>] (__dabt_usr+0x44/0x60)
+Exception stack(0xb6be9fb0 to 0xb6be9ff8)
+9fa0:                                     00000000 000e55c0 0000000a 00000008
+9fc0: 00000040 763b6bf8 7eea74b0 00000032 00000000 763db960 7eea74b0 7eea77ac
+9fe0: 763b6d10 7eea7430 762d0244 762d1578 60050010 ffffffff
+Mem-Info:
+active_anon:112268 inactive_anon:112295 isolated_anon:0
+ active_file:190 inactive_file:213 isolated_file:0
+ unevictable:0 dirty:0 writeback:0 unstable:0
+ slab_reclaimable:2621 slab_unreclaimable:2731
+ mapped:20928 shmem:20735 pagetables:1314 bounce:0
+ free:2046 free_pcp:289 free_cma:0
+Normal free:8184kB min:8192kB low:10240kB high:12288kB active_anon:449072kB inactive_anon:449180kB active_file:760kB inactive_file:852kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:966656kB managed:948056kB mlocked:0kB dirty:0kB writeback:0kB mapped:83712kB shmem:82940kB slab_reclaimable:10484kB slab_unreclaimable:10924kB kernel_stack:1696kB pagetables:5256kB unstable:0kB bounce:0kB free_pcp:1156kB local_pcp:24kB free_cma:0kB writeback_tmp:0kB pages_scanned:10652 all_unreclaimable? yes
+lowmem_reserve[]: 0 0
+Normal: 0*4kB 1*8kB (R) 1*16kB (R) 1*32kB (R) 1*64kB (R) 1*128kB (R) 1*256kB (R) 1*512kB (R) 1*1024kB (R) 1*2048kB (R) 1*4096kB (R) = 8184kB
+25885 total pagecache pages
+4654 pages in swap cache
+Swap cache stats: add 25600, delete 20946, find 1/1
+Free swap  = 0kB
+Total swap = 102396kB
+241664 pages RAM
+0 pages HighMem/MovableOnly
+2602 pages reserved
+2048 pages cma reserved
+[ pid ]   uid  tgid total_vm      rss nr_ptes nr_pmds swapents oom_score_adj name
+[  107]     0   107     2487      113       8       0       45             0 systemd-journal
+[  109]     0   109     1045       55       7       0       62         -1000 systemd-udevd
+[  365]     0   365     1787       39       7       0       72             0 wpa_supplicant
+[  430]     0   430     1275       24       7       0       33             0 cron
+[  433]     0   433      996       32       6       0       68             0 systemd-logind
+[  438]   105   438     1002       57       6       0       20             0 avahi-daemon
+[  440]   104   440     1435       77       7       0       70          -900 dbus-daemon
+[  456]     0   456      641       25       5       0       46             0 dhcpcd
+[  463] 65534   463      573        5       5       0       25             0 thd
+[  470]   105   470      969       14       5       0       42             0 avahi-daemon
+[  508]     0   508      517        1       5       0       32             0 hciattach
+[  545]     0   545     8036       73       8       0       95             0 rsyslogd
+[  564]     0   564     1252        0       7       0       66             0 bluetoothd
+[  582]     0   582     8973       82      12       0       81             0 lightdm
+[  605]   106   605     1421       49       7       0       58             0 ntpd
+[  662]     0   662    55314    16619      93       0     2987             0 Xorg
+[  676]     0   676     1417        2       8       0      110             0 login
+[  677]     0   677      968        2       5       0       31             0 agetty
+[  702]  1000   702     1244        1       9       0       99             0 systemd
+[  707]  1000   707     1969       19       7       0      553             0 (sd-pam)
+[  728]  1000   728     1579        1       7       0      350             0 bash
+[  750]     0   750     1965       28       8       0       86         -1000 sshd
+[  766]     0   766     7034       37      12       0      134             0 lightdm
+[  779]  1000   779    12724       72      20       0      253             0 lxsession
+[  803]  1000   803      924       12       5       0       40             0 ssh-agent
+[  806]  1000   806      923        0       6       0       61             0 dbus-launch
+[  807]  1000   807     1406       55       6       0       60             0 dbus-daemon
+[  813]  1000   813     7745       78      14       0       54             0 gvfsd
+[  818]  1000   818    11812        0      15       0      123             0 gvfsd-fuse
+[  830]  1000   830     5624      608      16       0      464             0 openbox
+[  833]  1000   833     7575       60      15       0      168             0 lxpolkit
+[  836]  1000   836    19523      278      27       0      653             0 pcmanfm
+[  842]  1000   842      924        0       5       0       51             0 ssh-agent
+[  843]     0   843     9123       68      13       0      190             0 polkitd
+[  853]  1000   853    15069       49      19       0      248             0 gvfs-udisks2-vo
+[  857]     0   857    13645      175      15       0      119             0 udisksd
+[  868]  1000   868     7737        0      14       0      155             0 gvfs-gphoto2-vo
+[  872]  1000   872     7482        0      11       0      130             0 gvfs-mtp-volume
+[  876]  1000   876     7508        1      11       0      118             0 gvfs-goa-volume
+[  880]  1000   880    10603        0      16       0      186             0 gvfs-afc-volume
+[  890]  1000   890     7072        1      12       0      140             0 menu-cached
+[  899]  1000   899    12470       40      14       0      136             0 gvfsd-trash
+[  916]  1000   916    25133      817      32       0      387             0 lxpanel
+[ 2902]  1000  2902    14764        0      21       0     1281             0 gvfsd-http
+[ 3408]  1000  3408     5192       55      12       0       60             0 gvfsd-metadata
+[ 4266]     0  4266    10932       87      17       0      120             0 packagekitd
+[ 5738]  1000  5738    11523      566      21       0      241             0 lxterminal
+[ 5739]  1000  5739      587        7       6       0       27             0 gnome-pty-helpe
+[ 5740]  1000  5740     1548        2       7       0      341             0 bash
+[ 5752]     0  5752     1695        2       9       0       87             0 sudo
+[ 5759]     0  5759     1637        1       8       0       88             0 su
+[ 5768]     0  5768     1560       66       6       0      281             0 bash
+[ 5804]     0  5804      923        0       5       0       61             0 dbus-launch
+[ 5805]     0  5805     1373       25       6       0       50             0 dbus-daemon
+[ 5820]     0  5820     1676       35       7       0       37             0 xfconfd
+[ 5860]  1000  5860   119109    31632     176       0    11898             0 epiphany-browse
+[ 5981]  1000  5981     8695      165      18       0      493             0 leafpad
+[ 7762]     0  7762     3018      171       9       0        0             0 sshd
+[ 7773]  1000  7773     3018      168       8       0        0             0 sshd
+[ 7776]  1000  7776     1578      351       6       0        0             0 bash
+[ 7787]     0  7787     1695       90       8       0        0             0 sudo
+[ 7794]     0  7794     1644       91       8       0        0             0 su
+[ 7803]     0  7803     1559      347       8       0        0             0 bash
+[18009]     0 18009      478       15       6       0        0             0 phoronix-test-s
+[18011]     0 18011     8749     1947      19       0        0             0 php5
+[18750]     0 18750      478       15       5       0        0             0 sh
+[18751]     0 18751      478       15       6       0        0             0 compress-7zip
+[18752]     0 18752   231018   176185     366       0        0             0 7za
+Out of memory: Kill process 18752 (7za) score 652 or sacrifice child
+Killed process 18752 (7za) total-vm:924072kB, anon-rss:704740kB, file-rss:0kB
+ntpd invoked oom-killer: gfp_mask=0x201da, order=0, oom_score_adj=0
+ntpd cpuset=/ mems_allowed=0
+CPU: 1 PID: 605 Comm: ntpd Not tainted 4.1.18-v7+ #846
+Hardware name: BCM2709
+[<800184b8>] (unwind_backtrace) from [<80013ee0>] (show_stack+0x20/0x24)
+[<80013ee0>] (show_stack) from [<80569038>] (dump_stack+0xd4/0x118)
+[<80569038>] (dump_stack) from [<80568550>] (dump_header+0xc0/0x1ec)
+[<80568550>] (dump_header) from [<800f99b8>] (oom_kill_process+0x23c/0x460)
+[<800f99b8>] (oom_kill_process) from [<800f9ed4>] (__out_of_memory+0x278/0x3a8)
+[<800f9ed4>] (__out_of_memory) from [<800fa1ec>] (out_of_memory+0x68/0x80)
+[<800fa1ec>] (out_of_memory) from [<800febc4>] (__alloc_pages_nodemask+0x858/0x8f0)
+[<800febc4>] (__alloc_pages_nodemask) from [<800f847c>] (filemap_fault+0x238/0x4e0)
+[<800f847c>] (filemap_fault) from [<8011dcec>] (__do_fault+0x4c/0xb4)
+[<8011dcec>] (__do_fault) from [<80121458>] (handle_mm_fault+0x840/0x10c0)
+[<80121458>] (handle_mm_fault) from [<8056edec>] (do_page_fault+0x2e4/0x398)
+[<8056edec>] (do_page_fault) from [<800092a8>] (do_PrefetchAbort+0x44/0xa8)
+[<800092a8>] (do_PrefetchAbort) from [<8056e9a4>] (ret_from_exception+0x0/0x1c)
+Exception stack(0xb80f5fb0 to 0xb80f5ff8)
+5fa0:                                     76fbd4d0 00000004 00000010 00000001
+5fc0: 00000000 000dcdf0 000dd914 00000000 00000001 000dd914 000dc9a0 000dcde4
+5fe0: 00089430 7e818c50 00021488 0003a414 20000010 ffffffff
+Mem-Info:
+active_anon:152963 inactive_anon:71639 isolated_anon:0
+ active_file:119 inactive_file:181 isolated_file:0
+ unevictable:0 dirty:0 writeback:0 unstable:0
+ slab_reclaimable:2613 slab_unreclaimable:2731
+ mapped:20876 shmem:20753 pagetables:1323 bounce:0
+ free:2043 free_pcp:328 free_cma:0
+Normal free:8172kB min:8192kB low:10240kB high:12288kB active_anon:611852kB inactive_anon:286556kB active_file:476kB inactive_file:724kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:966656kB managed:948056kB mlocked:0kB dirty:0kB writeback:0kB mapped:83504kB shmem:83012kB slab_reclaimable:10452kB slab_unreclaimable:10924kB kernel_stack:1688kB pagetables:5292kB unstable:0kB bounce:0kB free_pcp:1312kB local_pcp:436kB free_cma:0kB writeback_tmp:0kB pages_scanned:7836 all_unreclaimable? yes
+lowmem_reserve[]: 0 0
+Normal: 0*4kB 0*8kB 0*16kB 0*32kB 0*64kB 0*128kB 0*256kB 0*512kB 0*1024kB 0*2048kB 2*4096kB (R) = 8192kB
+21186 total pagecache pages
+78 pages in swap cache
+Swap cache stats: add 25747, delete 25669, find 47/71
+Free swap  = 0kB
+Total swap = 102396kB
+241664 pages RAM
+0 pages HighMem/MovableOnly
+2602 pages reserved
+2048 pages cma reserved
+[ pid ]   uid  tgid total_vm      rss nr_ptes nr_pmds swapents oom_score_adj name
+[  107]     0   107     2524      302       8       0       38             0 systemd-journal
+[  109]     0   109     1045       55       7       0       62         -1000 systemd-udevd
+[  365]     0   365     1787       39       7       0       72             0 wpa_supplicant
+[  430]     0   430     1275       23       7       0       33             0 cron
+[  433]     0   433      996       32       6       0       68             0 systemd-logind
+[  438]   105   438     1002       56       6       0       20             0 avahi-daemon
+[  440]   104   440     1435       77       7       0       70          -900 dbus-daemon
+[  456]     0   456      641       25       5       0       46             0 dhcpcd
+[  463] 65534   463      573        5       5       0       25             0 thd
+[  470]   105   470      969       14       5       0       42             0 avahi-daemon
+[  508]     0   508      517        1       5       0       32             0 hciattach
+[  545]     0   545     8036       76       8       0       93             0 rsyslogd
+[  564]     0   564     1252        0       7       0       66             0 bluetoothd
+[  582]     0   582     8973       82      12       0       81             0 lightdm
+[  605]   106   605     1421       49       7       0       58             0 ntpd
+[  662]     0   662    55314    16556      93       0     2987             0 Xorg
+[  676]     0   676     1417        2       8       0      110             0 login
+[  677]     0   677      968        2       5       0       31             0 agetty
+[  702]  1000   702     1244        1       9       0       99             0 systemd
+[  707]  1000   707     1969       19       7       0      553             0 (sd-pam)
+[  728]  1000   728     1579        1       7       0      350             0 bash
+[  750]     0   750     1965       28       8       0       86         -1000 sshd
+[  766]     0   766     7034       37      12       0      134             0 lightdm
+[  779]  1000   779    12724       72      20       0      253             0 lxsession
+[  803]  1000   803      924       12       5       0       40             0 ssh-agent
+[  806]  1000   806      923        0       6       0       61             0 dbus-launch
+[  807]  1000   807     1406       55       6       0       60             0 dbus-daemon
+[  813]  1000   813     7745       78      14       0       54             0 gvfsd
+[  818]  1000   818    11812        0      15       0      123             0 gvfsd-fuse
+[  830]  1000   830     5624      608      16       0      464             0 openbox
+[  833]  1000   833     7575       60      15       0      168             0 lxpolkit
+[  836]  1000   836    19523      278      27       0      653             0 pcmanfm
+[  842]  1000   842      924        0       5       0       51             0 ssh-agent
+[  843]     0   843     9123       68      13       0      190             0 polkitd
+[  853]  1000   853    15069       49      19       0      248             0 gvfs-udisks2-vo
+[  857]     0   857    13645      175      15       0      119             0 udisksd
+[  868]  1000   868     7737        0      14       0      155             0 gvfs-gphoto2-vo
+[  872]  1000   872     7482        0      11       0      130             0 gvfs-mtp-volume
+[  876]  1000   876     7508        1      11       0      118             0 gvfs-goa-volume
+[  880]  1000   880    10603        0      16       0      186             0 gvfs-afc-volume
+[  890]  1000   890     7072        1      12       0      140             0 menu-cached
+[  899]  1000   899    12470       40      14       0      136             0 gvfsd-trash
+[  916]  1000   916    25132      842      32       0      387             0 lxpanel
+[ 2902]  1000  2902    14764        0      21       0     1281             0 gvfsd-http
+[ 3408]  1000  3408     5192       55      12       0       60             0 gvfsd-metadata
+[ 4266]     0  4266    10932       87      17       0      120             0 packagekitd
+[ 5738]  1000  5738    11523      566      21       0      241             0 lxterminal
+[ 5739]  1000  5739      587        7       6       0       27             0 gnome-pty-helpe
+[ 5740]  1000  5740     1548        2       7       0      341             0 bash
+[ 5752]     0  5752     1695        2       9       0       87             0 sudo
+[ 5759]     0  5759     1637        1       8       0       88             0 su
+[ 5768]     0  5768     1560       66       6       0      281             0 bash
+[ 5804]     0  5804      923        0       5       0       61             0 dbus-launch
+[ 5805]     0  5805     1373       25       6       0       50             0 dbus-daemon
+[ 5820]     0  5820     1676       35       7       0       37             0 xfconfd
+[ 5860]  1000  5860   119109    31631     176       0    11953             0 epiphany-browse
+[ 5981]  1000  5981     8695      165      18       0      493             0 leafpad
+[ 7762]     0  7762     3018      171       9       0        0             0 sshd
+[ 7773]  1000  7773     3018      173       8       0        0             0 sshd
+[ 7776]  1000  7776     1578      351       6       0        0             0 bash
+[ 7787]     0  7787     1695       90       8       0        0             0 sudo
+[ 7794]     0  7794     1644       91       8       0        0             0 su
+[ 7803]     0  7803     1559      347       8       0        0             0 bash
+[18009]     0 18009      478       15       6       0        0             0 phoronix-test-s
+[18011]     0 18011     8749     1953      19       0        0             0 php5
+[18792]     0 18792      478       15       4       0        0             0 sh
+[18793]     0 18793      478       15       5       0        0             0 compress-7zip
+[18794]     0 18794   231018   180728     376       0        0             0 7za
+Out of memory: Kill process 18794 (7za) score 668 or sacrifice child
+Killed process 18794 (7za) total-vm:924072kB, anon-rss:722840kB, file-rss:72kB
+7za invoked oom-killer: gfp_mask=0x200da, order=0, oom_score_adj=0
+7za cpuset=/ mems_allowed=0
+CPU: 1 PID: 18892 Comm: 7za Not tainted 4.1.18-v7+ #846
+Hardware name: BCM2709
+[<800184b8>] (unwind_backtrace) from [<80013ee0>] (show_stack+0x20/0x24)
+[<80013ee0>] (show_stack) from [<80569038>] (dump_stack+0xd4/0x118)
+[<80569038>] (dump_stack) from [<80568550>] (dump_header+0xc0/0x1ec)
+[<80568550>] (dump_header) from [<800f99b8>] (oom_kill_process+0x23c/0x460)
+[<800f99b8>] (oom_kill_process) from [<800f9ed4>] (__out_of_memory+0x278/0x3a8)
+[<800f9ed4>] (__out_of_memory) from [<800fa1ec>] (out_of_memory+0x68/0x80)
+[<800fa1ec>] (out_of_memory) from [<800febc4>] (__alloc_pages_nodemask+0x858/0x8f0)
+[<800febc4>] (__alloc_pages_nodemask) from [<801219bc>] (handle_mm_fault+0xda4/0x10c0)
+[<801219bc>] (handle_mm_fault) from [<8056edec>] (do_page_fault+0x2e4/0x398)
+[<8056edec>] (do_page_fault) from [<800091e8>] (do_DataAbort+0x48/0xc4)
+[<800091e8>] (do_DataAbort) from [<8056e664>] (__dabt_usr+0x44/0x60)
+Exception stack(0xaad57fb0 to 0xaad57ff8)
+7fa0:                                     54ed3004 00000000 54ed3000 00000000
+7fc0: 00000020 00000000 00000000 03a93000 0000156b 01a92fff 02000001 01a92fff
+7fe0: 03a93000 74bfed80 000d643c 000d4cc0 20000010 ffffffff
+Mem-Info:
+active_anon:119841 inactive_anon:104889 isolated_anon:0
+ active_file:75 inactive_file:77 isolated_file:0
+ unevictable:0 dirty:0 writeback:0 unstable:0
+ slab_reclaimable:2602 slab_unreclaimable:2730
+ mapped:20821 shmem:20765 pagetables:1326 bounce:0
+ free:2021 free_pcp:367 free_cma:0
+Normal free:8084kB min:8192kB low:10240kB high:12288kB active_anon:479364kB inactive_anon:419556kB active_file:300kB inactive_file:308kB unevictable:0kB isolated(anon):0kB isolated(file):0kB present:966656kB managed:948056kB mlocked:0kB dirty:0kB writeback:0kB mapped:83284kB shmem:83060kB slab_reclaimable:10408kB slab_unreclaimable:10920kB kernel_stack:1672kB pagetables:5304kB unstable:0kB bounce:0kB free_pcp:1468kB local_pcp:336kB free_cma:0kB writeback_tmp:0kB pages_scanned:6140 all_unreclaimable? yes
+lowmem_reserve[]: 0 0
+Normal: 0*4kB 0*8kB 0*16kB 0*32kB 1*64kB (R) 1*128kB (R) 1*256kB (R) 1*512kB (R) 1*1024kB (R) 1*2048kB (R) 1*4096kB (R) = 8128kB
+21111 total pagecache pages
+96 pages in swap cache
+Swap cache stats: add 25819, delete 25723, find 83/128
+Free swap  = 0kB
+Total swap = 102396kB
+241664 pages RAM
+0 pages HighMem/MovableOnly
+2602 pages reserved
+2048 pages cma reserved
+[ pid ]   uid  tgid total_vm      rss nr_ptes nr_pmds swapents oom_score_adj name
+[  107]     0   107     2585      285       8       0       38             0 systemd-journal
+[  109]     0   109     1045       55       7       0       62         -1000 systemd-udevd
+[  365]     0   365     1787       39       7       0       72             0 wpa_supplicant
+[  430]     0   430     1275       23       7       0       33             0 cron
+[  433]     0   433      996       33       6       0       68             0 systemd-logind
+[  438]   105   438     1002       56       6       0       20             0 avahi-daemon
+[  440]   104   440     1435       77       7       0       70          -900 dbus-daemon
+[  456]     0   456      641       25       5       0       46             0 dhcpcd
+[  463] 65534   463      573        6       5       0       25             0 thd
+[  470]   105   470      969       14       5       0       42             0 avahi-daemon
+[  508]     0   508      517        1       5       0       32             0 hciattach
+[  545]     0   545     8036      112       8       0       65             0 rsyslogd
+[  564]     0   564     1252        0       7       0       66             0 bluetoothd
+[  582]     0   582     8973       82      12       0       81             0 lightdm
+[  605]   106   605     1421       49       7       0       58             0 ntpd
+[  662]     0   662    55314    16619      93       0     2987             0 Xorg
+[  676]     0   676     1417        2       8       0      110             0 login
+[  677]     0   677      968        2       5       0       31             0 agetty
+[  702]  1000   702     1244        1       9       0       99             0 systemd
+[  707]  1000   707     1969       19       7       0      553             0 (sd-pam)
+[  728]  1000   728     1579        1       7       0      350             0 bash
+[  750]     0   750     1965       28       8       0       86         -1000 sshd
+[  766]     0   766     7034       37      12       0      134             0 lightdm
+[  779]  1000   779    12724       72      20       0      253             0 lxsession
+[  803]  1000   803      924       12       5       0       40             0 ssh-agent
+[  806]  1000   806      923        0       6       0       61             0 dbus-launch
+[  807]  1000   807     1406       55       6       0       60             0 dbus-daemon
+[  813]  1000   813     7745       78      14       0       54             0 gvfsd
+[  818]  1000   818    11812        0      15       0      123             0 gvfsd-fuse
+[  830]  1000   830     5624      608      16       0      464             0 openbox
+[  833]  1000   833     7575       60      15       0      168             0 lxpolkit
+[  836]  1000   836    19523      278      27       0      653             0 pcmanfm
+[  842]  1000   842      924        0       5       0       51             0 ssh-agent
+[  843]     0   843     9123       68      13       0      190             0 polkitd
+[  853]  1000   853    15069       49      19       0      248             0 gvfs-udisks2-vo
+[  857]     0   857    13645      175      15       0      119             0 udisksd
+[  868]  1000   868     7737        0      14       0      155             0 gvfs-gphoto2-vo
+[  872]  1000   872     7482        0      11       0      130             0 gvfs-mtp-volume
+[  876]  1000   876     7508        1      11       0      118             0 gvfs-goa-volume
+[  880]  1000   880    10603        0      16       0      186             0 gvfs-afc-volume
+[  890]  1000   890     7072        1      12       0      140             0 menu-cached
+[  899]  1000   899    12470       40      14       0      136             0 gvfsd-trash
+[  916]  1000   916    25132      906      32       0      387             0 lxpanel
+[ 2902]  1000  2902    14764        0      21       0     1281             0 gvfsd-http
+[ 3408]  1000  3408     5192       55      12       0       60             0 gvfsd-metadata
+[ 4266]     0  4266    10932       87      17       0      120             0 packagekitd
+[ 5738]  1000  5738    11523      566      21       0      241             0 lxterminal
+[ 5739]  1000  5739      587        7       6       0       27             0 gnome-pty-helpe
+[ 5740]  1000  5740     1548        2       7       0      341             0 bash
+[ 5752]     0  5752     1695        2       9       0       87             0 sudo
+[ 5759]     0  5759     1637        1       8       0       88             0 su
+[ 5768]     0  5768     1560       66       6       0      281             0 bash
+[ 5804]     0  5804      923        0       5       0       61             0 dbus-launch
+[ 5805]     0  5805     1373       25       6       0       50             0 dbus-daemon
+[ 5820]     0  5820     1676       35       7       0       37             0 xfconfd
+[ 5860]  1000  5860   119109    31488     176       0    11965             0 epiphany-browse
+[ 5981]  1000  5981     8695      165      18       0      493             0 leafpad
+[ 7762]     0  7762     3018      171       9       0        0             0 sshd
+[ 7773]  1000  7773     3018      173       8       0        0             0 sshd
+[ 7776]  1000  7776     1578      351       6       0        0             0 bash
+[ 7787]     0  7787     1695       90       8       0        0             0 sudo
+[ 7794]     0  7794     1644       91       8       0        0             0 su
+[ 7803]     0  7803     1559      347       8       0        0             0 bash
+[18009]     0 18009      478       15       6       0        0             0 phoronix-test-s
+[18011]     0 18011     8749     1947      19       0        0             0 php5
+[18832]     0 18832      478       15       6       0        0             0 sh
+[18833]     0 18833      478       15       5       0        0             0 compress-7zip
+[18834]     0 18834   231018   180868     377       0        0             0 7za
+Out of memory: Kill process 18834 (7za) score 669 or sacrifice child
+Killed process 18834 (7za) total-vm:924072kB, anon-rss:723344kB, file-rss:128kB

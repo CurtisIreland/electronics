@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Phoronix Test Suite v4.8.3 (Sokndal) [ http://www.phoronix-test-suite.com/ ]-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" font-family="sans-serif" viewbox="0 0 600 182" width="600" height="182">
+  <rect x="1" y="1" width="598" height="181" fill="#FEFEFE" stroke="#757575" stroke-width="1"/>
+  <line x1="93" y1="64" x2="93" y2="110" stroke="#757575" stroke-width="1"/>
+  <line x1="93" y1="110" x2="585" y2="110" stroke="#757575" stroke-width="1"/>
+  <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
+    <text x="585" y="59" font-size="7" fill="#065695" text-anchor="end" xlink:show="new">PHORONIX-TEST-SUITE.COM</text>
+  </a>
+  <polygon points="93,56 102,60.5 102,51.5" fill="#065695" stroke="#949494" stroke-width="1"/>
+  <text x="105" y="59" font-size="7" fill="#065695" text-anchor="start">Seconds, Less Is Better</text>
+  <rect x="0" y="0" width="600" height="48" fill="#231f20"/>
+  <a xlink:href="http://openbenchmarking.org/test/pts/encode-mp3-1.4.0" xlink:show="new">
+    <text x="6" y="19" font-size="17" fill="#FEFEFE" text-anchor="start" xlink:show="new">LAME MP3 Encoding v3.99.3</text>
+  </a>
+  <text x="6" y="36" font-size="11" fill="#FEFEFE" text-anchor="start">WAV To MP3</text>
+  <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
+    <image xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAE0AAAAoCAYAAAC7MHdZAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAADhgAAA4YBfPt6aAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAARTSURBVGiB7dlbqBVVHMfxj8dTpHIUNdMTBFlEUZYZZQhdCMKksuSAYb5EIGIXC4KI8sEgKLpJUBkUlRm9mKlREZRBhVbgg1QPmd2tUMOQ1KRIz+phzbZp9uyzZ8/MscD9hWHv+c9a/7Xmt9fl/197RAjBMLIIt6fud+Oq4WzwaNA7zP4nY3rq/udhbu+oMNyi/V/pwwMZ2xp8VKTysSraGNyZsW1TULSe2rtzDNAVrQRd0UrQFa0EXdFKMNTuOQIXYh6moT+x7RR3mvX4BMMaHSeMxmLMSvo0sYSPy/BZHZ1pJdrVeATntHg+F3eL4t0nCjhcXIoXcXpFPyNr6Auap+covIK3tBYszVlYJ4rWV1enUkzHe6oLVitp0frwARaW8DNPDAwn1NGphOOxGsfV6LMWGtOzRxxhF7Uo9424fg3iYpwhrm9ppmEtZuNQCz9jcX+bPu3AC7gW52WeHcDL2N7GRx4/laiTS0O0ReI6leVtLBFfJE0/VoojLM0VYnryeIv2+rC8TZ82i6JdkLEHzMDXbepXYSFmpu5346GmUiGEMSGEnaGZpSEEba7FOfX2hBDGJs+X5Txvx6ak7oaMfXOB/hS9puS0uySEsCpj25ZXvwfXY0pGy9V4ssAv8yyey9gmYn7Rn3YIssdI54qhx39OL67L2Pbgjg583CWuP/0p2wCezyl7WPu1ZVfyuTVj7xPXs4fxZRsfg9jfpkxpenF+xvYxfuvAxwG8jxtTtlYbyi6cWtDvO/hdPMZpMJBcRdiJLWJI9FLBOoXowaSM7dMSfrZk7ifhhFI9+ocduKdC/X5xFq3CuzilYn+O0INxGdsPJfz8mmMbJY6UNON1lu+u1LxmluFKvK6mmC/vBcrkktnw4CD2ilMkzWic2YHfIOacA/iuRL/SzMCyij5Q33H3zMx9I/j8qkXZLzr0vz65xosB7/g25UeKcecN4ohvsFT74DrLHDFePUIdos0RTx/SvJl8bhVHW3pnXS5mDtmpW4S9YqpXhNeS9p9I2SbgNHEmlKbqeVqfGKtlWZN8htT3BlPxaMV2i7Ihx3Z2VadVRJuBTZp3pXX4PHX/oOaY6RZxJEyu0H4RZufY8paMjsibnuM0ZwgNJotizcLNmnej/bg3Y/tFDB1WZuwDuFwciVtFof8Q4750fnkyThrqJXJorGm3Zuz7xPW22o8VQjhUIj/M43AIYe4Q+d4zBf00cs/GtaKm/oUQwlOh89xzTrZgXf8RHMQCvDFEmdvwWE3tleFb1YLlI9Qh2hZcglfblBsUj8jn48ca2u2E7eJyUGbHbqKsaH+KscsC8VAym1wPxVoxwF2KjfirZB/aEcTD0xVifl0mPcxlRAjhkH//6fC0+DJ57Bfjru9VjHVS9OLE5OpVz0YwKGYQrU46RuGmjO1DMYSamrLtEzeoa9IF80RbJP9Yp0tC98/iEnRFK0FXtBJ0RStBV7QSdEUrQVe0EvwNj8PjDA+lMHUAAAAASUVORK5CYII=" x="508" y="3.2" width="77" height="40"/>
+  </a>
+  <line x1="93" y1="110" x2="93" y2="66" stroke="#757575" stroke-width="10" stroke-dasharray="1,45"/>
+  <text x="88" y="85" font-size="10" fill="#231f20" text-anchor="end">rpi3-cpu-test</text>
+  <text x="175" y="125" font-size="10" fill="#065695" text-anchor="middle">40</text>
+  <line x1="177" y1="64" x2="177" y2="105" stroke="#BABABA" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="177" y1="106" x2="177" y2="114" stroke="#757575" stroke-width="1"/>
+  <text x="257" y="125" font-size="10" fill="#065695" text-anchor="middle">80</text>
+  <line x1="259" y1="64" x2="259" y2="105" stroke="#BABABA" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="259" y1="106" x2="259" y2="114" stroke="#757575" stroke-width="1"/>
+  <text x="339" y="125" font-size="10" fill="#065695" text-anchor="middle">120</text>
+  <line x1="341" y1="64" x2="341" y2="105" stroke="#BABABA" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="341" y1="106" x2="341" y2="114" stroke="#757575" stroke-width="1"/>
+  <text x="421" y="125" font-size="10" fill="#065695" text-anchor="middle">160</text>
+  <line x1="423" y1="64" x2="423" y2="105" stroke="#BABABA" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="423" y1="106" x2="423" y2="114" stroke="#757575" stroke-width="1"/>
+  <text x="503" y="125" font-size="10" fill="#065695" text-anchor="middle">200</text>
+  <line x1="505" y1="64" x2="505" y2="105" stroke="#BABABA" stroke-width="1" stroke-dasharray="5,5"/>
+  <line x1="505" y1="106" x2="505" y2="114" stroke="#757575" stroke-width="1"/>
+  <rect x="93" y="70" width="385" height="34" fill="#065695" stroke="#949494" stroke-width="1" xlink:title="rpi3-cpu-test: 187.75"/>
+  <text x="88" y="100.8" font-size="8" fill="#065695" text-anchor="end">SE +/- 0.09</text>
+  <text x="473" y="93" font-size="10" fill="#FFFFFF" text-anchor="end">187.75</text>
+  <line x1="93" y1="110" x2="585" y2="110" stroke="#757575" stroke-width="1"/>
+  <rect x="0" y="132" width="600" height="50" fill="#231f20"/>
+  <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
+    <text x="585" y="144" font-size="9" fill="#FEFEFE" text-anchor="end" xlink:show="new">Powered By Phoronix Test Suite 4.8.3</text>
+  </a>
+  <text x="5" y="158" font-size="8" fill="#FEFEFE" text-anchor="start" xlink:title="-O3 -fomit-frame-pointer -ffast-math -pipe -lm" width="595">1. (CC) gcc options: -O3 -fomit-frame-pointer -ffast-math -pipe -lm</text>
+</svg>

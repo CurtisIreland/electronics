@@ -1,0 +1,166 @@
+
+X.Org X Server 1.17.2
+Release Date: 2015-06-16
+X Protocol Version 11, Revision 0
+Build Operating System: Linux 3.8.11-2-ARCH armv7l Raspbian
+Current Operating System: Linux raspberrypi 4.1.18-v7+ #846 SMP Thu Feb 25 14:22:53 GMT 2016 armv7l
+Kernel command line: dma.dmachans=0x7f35 bcm2708_fb.fbwidth=1824 bcm2708_fb.fbheight=984 bcm2709.boardrev=0xa01041 bcm2709.serial=0x1c23e976 smsc95xx.macaddr=B8:27:EB:23:E9:76 bcm2708_fb.fbswap=1 bcm2709.uart_clock=3000000 bcm2709.disk_led_gpio=47 bcm2709.disk_led_active_low=0 vc_mem.mem_base=0x3dc00000 vc_mem.mem_size=0x3f000000  dwc_otg.lpm_enable=0 console=ttyAMA0,115200 console=tty1 root=/dev/mmcblk0p7 rootfstype=ext4 elevator=deadline fsck.repair=yes rootwait
+Build Date: 11 January 2016  01:32:44PM
+xorg-server 2:1.17.2-1+rpi1 (http://www.debian.org/support) 
+Current version of pixman: 0.33.3
+	Before reporting problems, check http://wiki.x.org
+	to make sure that you have the latest version.
+Markers: (--) probed, (**) from config file, (==) default setting,
+	(++) from command line, (!!) notice, (II) informational,
+	(WW) warning, (EE) error, (NI) not implemented, (??) unknown.
+(==) Log file: "/var/log/Xorg.0.log", Time: Fri Mar 11 22:49:20 2016
+(==) Using system config directory "/usr/share/X11/xorg.conf.d"
+(==) No Layout section.  Using the first Screen section.
+(==) No screen section available. Using defaults.
+(**) |-->Screen "Default Screen Section" (0)
+(**) |   |-->Monitor "<default monitor>"
+(==) No device specified for screen "Default Screen Section".
+	Using the first device section listed.
+(**) |   |-->Device "Allwinner A10/A13 FBDEV"
+(==) No monitor specified for screen "Default Screen Section".
+	Using a default monitor configuration.
+(==) Automatically adding devices
+(==) Automatically enabling devices
+(==) Automatically adding GPU devices
+(WW) The directory "/usr/share/fonts/X11/misc" does not exist.
+	Entry deleted from font path.
+(WW) The directory "/usr/share/fonts/X11/cyrillic" does not exist.
+	Entry deleted from font path.
+(WW) The directory "/usr/share/fonts/X11/75dpi/" does not exist.
+	Entry deleted from font path.
+(WW) The directory "/usr/share/fonts/X11/75dpi" does not exist.
+	Entry deleted from font path.
+(==) FontPath set to:
+	/usr/share/fonts/X11/100dpi/:unscaled,
+	/usr/share/fonts/X11/Type1,
+	/usr/share/fonts/X11/100dpi,
+	built-ins
+(==) ModulePath set to "/usr/lib/xorg/modules"
+(II) The server relies on udev to provide the list of input devices.
+	If no devices become available, reconfigure udev or disable AutoAddDevices.
+(II) Loader magic: 0x54d83f00
+(II) Module ABI versions:
+	X.Org ANSI C Emulation: 0.4
+	X.Org Video Driver: 19.0
+	X.Org XInput driver : 21.0
+	X.Org Server Extension : 9.0
+(II) no primary bus or device found
+(II) LoadModule: "glx"
+(II) Loading /usr/lib/xorg/modules/extensions/libglx.so
+(II) Module glx: vendor="X.Org Foundation"
+	compiled for 1.17.2, module version = 1.0.0
+	ABI class: X.Org Server Extension, version 9.0
+(==) AIGLX enabled
+(II) LoadModule: "fbturbo"
+(II) Loading /usr/lib/xorg/modules/drivers/fbturbo_drv.so
+(II) Module fbturbo: vendor="X.Org Foundation"
+	compiled for 1.17.2, module version = 0.5.1
+	Module class: X.Org Video Driver
+	ABI class: X.Org Video Driver, version 19.0
+(II) FBTURBO: driver for framebuffer: fbturbo
+(++) using VT number 7
+
+(WW) Falling back to old probe method for fbturbo
+(II) Loading sub module "fbdevhw"
+(II) LoadModule: "fbdevhw"
+(II) Loading /usr/lib/xorg/modules/libfbdevhw.so
+(II) Module fbdevhw: vendor="X.Org Foundation"
+	compiled for 1.17.2, module version = 0.0.2
+	ABI class: X.Org Video Driver, version 19.0
+(II) FBTURBO(0): using /dev/fb0
+(WW) VGA arbiter: cannot open kernel arbiter, no multi-card support
+(II) FBTURBO(0): Creating default Display subsection in Screen section
+	"Default Screen Section" for depth/fbbpp 16/16
+(==) FBTURBO(0): Depth 16, (==) framebuffer bpp 16
+(==) FBTURBO(0): RGB weight 565
+(==) FBTURBO(0): Default visual is TrueColor
+(==) FBTURBO(0): Using gamma correction (1.0, 1.0, 1.0)
+(II) FBTURBO(0): hardware: BCM2708 FB (video memory: 3505kB)
+(**) FBTURBO(0): Option "fbdev" "/dev/fb0"
+(**) FBTURBO(0): Option "SwapbuffersWait" "true"
+(II) FBTURBO(0): processor: ARM Cortex-A7
+(II) FBTURBO(0): checking modes against framebuffer device...
+(II) FBTURBO(0): checking modes against monitor...
+(--) FBTURBO(0): Virtual size is 1824x984 (pitch 1824)
+(**) FBTURBO(0):  Built-in mode "current"
+(==) FBTURBO(0): DPI set to (96, 96)
+(II) Loading sub module "fb"
+(II) LoadModule: "fb"
+(II) Loading /usr/lib/xorg/modules/libfb.so
+(II) Module fb: vendor="X.Org Foundation"
+	compiled for 1.17.2, module version = 1.0.0
+	ABI class: X.Org ANSI C Emulation, version 0.4
+(II) FBTURBO(0): using backing store heuristics
+(II) FBTURBO(0): can't load 'g2d_23' kernel module
+(II) FBTURBO(0): failed to enable the use of sunxi display controller
+(II) FBTURBO(0): No sunxi-g2d hardware detected (check /dev/disp and /dev/g2d)
+(II) FBTURBO(0): G2D hardware acceleration can't be enabled
+(II) FBTURBO(0): enabled fbdev copyarea acceleration
+(==) FBTURBO(0): Backing store enabled
+(==) FBTURBO(0): DPMS enabled
+(II) FBTURBO(0): failed to enable hardware cursor
+(II) FBTURBO(0): no 3D acceleration because the driver has been compiled without libUMP
+(II) FBTURBO(0): if this is wrong and needs to be fixed, please check ./configure log
+(==) RandR enabled
+(II) SELinux: Disabled on system
+(II) AIGLX: Screen 0 is not DRI2 capable
+(EE) AIGLX: reverting to software rendering
+(II) AIGLX: Loaded and initialized swrast
+(II) GLX: Initialized DRISWRAST GL provider for screen 0
+(II) config/udev: Adding input device Logitech USB Receiver (/dev/input/event0)
+(**) Logitech USB Receiver: Applying InputClass "evdev keyboard catchall"
+(II) LoadModule: "evdev"
+(II) Loading /usr/lib/xorg/modules/input/evdev_drv.so
+(II) Module evdev: vendor="X.Org Foundation"
+	compiled for 1.17.2, module version = 2.9.2
+	Module class: X.Org XInput Driver
+	ABI class: X.Org XInput driver, version 21.0
+(II) Using input driver 'evdev' for 'Logitech USB Receiver'
+(**) Logitech USB Receiver: always reports core events
+(**) evdev: Logitech USB Receiver: Device: "/dev/input/event0"
+(--) evdev: Logitech USB Receiver: Vendor 0x46d Product 0xc52b
+(--) evdev: Logitech USB Receiver: Found keys
+(II) evdev: Logitech USB Receiver: Configuring as keyboard
+(**) Option "config_info" "udev:/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.2/1-1.2:1.0/0003:046D:C52B.0001/input/input0/event0"
+(II) XINPUT: Adding extended input device "Logitech USB Receiver" (type: KEYBOARD, id 6)
+(**) Option "xkb_rules" "evdev"
+(**) Option "xkb_model" "pc105"
+(**) Option "xkb_layout" "gb"
+(II) config/udev: Adding input device Logitech USB Receiver (/dev/input/event1)
+(**) Logitech USB Receiver: Applying InputClass "evdev pointer catchall"
+(**) Logitech USB Receiver: Applying InputClass "evdev keyboard catchall"
+(II) Using input driver 'evdev' for 'Logitech USB Receiver'
+(**) Logitech USB Receiver: always reports core events
+(**) evdev: Logitech USB Receiver: Device: "/dev/input/event1"
+(--) evdev: Logitech USB Receiver: Vendor 0x46d Product 0xc52b
+(--) evdev: Logitech USB Receiver: Found 20 mouse buttons
+(--) evdev: Logitech USB Receiver: Found scroll wheel(s)
+(--) evdev: Logitech USB Receiver: Found relative axes
+(--) evdev: Logitech USB Receiver: Found x and y relative axes
+(--) evdev: Logitech USB Receiver: Found absolute axes
+(II) evdev: Logitech USB Receiver: Forcing absolute x/y axes to exist.
+(--) evdev: Logitech USB Receiver: Found keys
+(II) evdev: Logitech USB Receiver: Configuring as mouse
+(II) evdev: Logitech USB Receiver: Configuring as keyboard
+(II) evdev: Logitech USB Receiver: Adding scrollwheel support
+(**) evdev: Logitech USB Receiver: YAxisMapping: buttons 4 and 5
+(**) evdev: Logitech USB Receiver: EmulateWheelButton: 4, EmulateWheelInertia: 10, EmulateWheelTimeout: 200
+(**) Option "config_info" "udev:/sys/devices/platform/soc/3f980000.usb/usb1/1-1/1-1.2/1-1.2:1.1/0003:046D:C52B.0002/input/input1/event1"
+(II) XINPUT: Adding extended input device "Logitech USB Receiver" (type: KEYBOARD, id 7)
+(**) Option "xkb_rules" "evdev"
+(**) Option "xkb_model" "pc105"
+(**) Option "xkb_layout" "gb"
+(II) evdev: Logitech USB Receiver: initialized for relative axes.
+(WW) evdev: Logitech USB Receiver: ignoring absolute axes.
+(**) Logitech USB Receiver: (accel) keeping acceleration scheme 1
+(**) Logitech USB Receiver: (accel) acceleration profile 0
+(**) Logitech USB Receiver: (accel) acceleration factor: 2.000
+(**) Logitech USB Receiver: (accel) acceleration threshold: 4
+(II) config/udev: Adding input device Logitech USB Receiver (/dev/input/mouse0)
+(II) No input driver specified, ignoring this device.
+(II) This device may have been added with another device file.

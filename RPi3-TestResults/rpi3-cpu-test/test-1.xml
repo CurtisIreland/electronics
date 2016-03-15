@@ -1,0 +1,327 @@
+<?xml version="1.0"?>
+<!--Phoronix Test Suite v4.8.3 (Sokndal)-->
+<?xml-stylesheet type="text/xsl" href="pts-results-viewer.xsl"?>
+<PhoronixTestSuite>
+  <Generated>
+    <Title>RPi3 CPU Test</Title>
+    <LastModified>2016-03-11 12:51:22</LastModified>
+    <TestClient>Phoronix Test Suite v4.8.3 (Sokndal)</TestClient>
+    <Description>Raspberry Pi 3 CPU Test</Description>
+  </Generated>
+  <System>
+    <Identifier>rpi3-cpu-test</Identifier>
+    <Hardware>Processor: ARMv7 rev 4 @ 1.20GHz (4 Cores), Motherboard: BCM2709, Memory: 925MB, Disk: 16GB SD16G, Graphics: Gallium 0.4 on llvmpipe (LLVM 3.7 128 bits)</Hardware>
+    <Software>OS: Raspbian 8.0, Kernel: 4.1.18-v7+ (armv7l), Desktop: LXDE 0.7.2, Display Server: X Server 1.17.2, Compiler: GCC 4.9.2, File-System: ext4, Screen Resolution: 1824x984</Software>
+    <User>root</User>
+    <TimeStamp>2016-03-11 12:51:22</TimeStamp>
+    <TestClientVersion>4.8.3</TestClientVersion>
+    <Notes></Notes>
+    <JSON>{"compiler-configuration":"--build=arm-linux-gnueabihf --disable-browser-plugin --disable-libitm --disable-libquadmath --disable-sjlj-exceptions --enable-checking=release --enable-clocale=gnu --enable-gnu-unique-object --enable-gtk-cairo --enable-java-awt=gtk --enable-java-home --enable-languages=c,c++,java,go,d,fortran,objc,obj-c++ --enable-libstdcxx-debug --enable-libstdcxx-time=yes --enable-multiarch --enable-nls --enable-objc-gc --enable-plugin --enable-shared --enable-threads=posix --host=arm-linux-gnueabihf --target=arm-linux-gnueabihf --with-arch-directory=arm --with-arch=armv6 --with-ecj-jar=\/usr\/share\/java\/eclipse-ecj.jar --with-float=hard --with-fpu=vfp --with-java-home=\/usr\/lib\/jvm\/java-1.5.0-gcj-4.9-armhf\/jre --with-jvm-jar-dir=\/usr\/lib\/jvm-exports\/java-1.5.0-gcj-4.9-armhf --with-jvm-root-dir=\/usr\/lib\/jvm\/java-1.5.0-gcj-4.9-armhf -v","cpu-scaling-governor":"BCM2835 Freq ondemand"}</JSON>
+  </System>
+  <Result>
+    <Identifier>pts/mafft-1.4.0</Identifier>
+    <Title>Timed MAFFT Alignment</Title>
+    <AppVersion>6.864</AppVersion>
+    <Arguments></Arguments>
+    <Description>Multiple Sequence Alignment</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>rpi3-cpu-test</Identifier>
+        <Value>90.89</Value>
+        <RawString>93.270740032196:88.401145935059:90.997465848923</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3 -lm -lpthread"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/gcrypt-1.0.3</Identifier>
+    <Title>Gcrypt Library</Title>
+    <AppVersion>1.4.4</AppVersion>
+    <Arguments></Arguments>
+    <Description>CAMELLIA256-ECB Cipher</Description>
+    <Scale>Microseconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>rpi3-cpu-test</Identifier>
+        <Value>18043</Value>
+        <RawString>17980:18110:18040</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O2 -fvisibility=hidden"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/john-the-ripper-1.5.1</Identifier>
+    <Title>John The Ripper</Title>
+    <AppVersion>1.8.0</AppVersion>
+    <Arguments>TRADITIONAL_DES_MANY_SALTS</Arguments>
+    <Description>Traditional DES</Description>
+    <Scale>Real C/S</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>rpi3-cpu-test</Identifier>
+        <Value>373034000</Value>
+        <RawString>373555000:373555000:371992000</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-fopenmp"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/john-the-ripper-1.5.1</Identifier>
+    <Title>John The Ripper</Title>
+    <AppVersion>1.8.0</AppVersion>
+    <Arguments>BLOWFISH</Arguments>
+    <Description>Blowfish</Description>
+    <Scale>Real C/S</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>rpi3-cpu-test</Identifier>
+        <Value>316</Value>
+        <RawString>316:316:316</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-fopenmp"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/graphics-magick-1.6.1</Identifier>
+    <Title>GraphicsMagick</Title>
+    <AppVersion>1.3.19</AppVersion>
+    <Arguments>-colorspace HWB</Arguments>
+    <Description>HWB Color Space</Description>
+    <Scale>Iterations Per Minute</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>rpi3-cpu-test</Identifier>
+        <Value>21</Value>
+        <RawString>20:21:21</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-std=gnu99 -fopenmp -O2 -pthread -lz -lm -lgomp -lpthread"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/graphics-magick-1.6.1</Identifier>
+    <Title>GraphicsMagick</Title>
+    <AppVersion>1.3.19</AppVersion>
+    <Arguments>-lat 10x10-5%</Arguments>
+    <Description>Local Adaptive Thresholding</Description>
+    <Scale>Iterations Per Minute</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>rpi3-cpu-test</Identifier>
+        <Value>8</Value>
+        <RawString>8:8:8</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-std=gnu99 -fopenmp -O2 -pthread -lz -lm -lgomp -lpthread"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/graphics-magick-1.6.1</Identifier>
+    <Title>GraphicsMagick</Title>
+    <AppVersion>1.3.19</AppVersion>
+    <Arguments>-sharpen 0x1.0</Arguments>
+    <Description>Sharpen</Description>
+    <Scale>Iterations Per Minute</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>rpi3-cpu-test</Identifier>
+        <Value>10</Value>
+        <RawString>10:10:10</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-std=gnu99 -fopenmp -O2 -pthread -lz -lm -lgomp -lpthread"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/graphics-magick-1.6.1</Identifier>
+    <Title>GraphicsMagick</Title>
+    <AppVersion>1.3.19</AppVersion>
+    <Arguments>-resize 50%</Arguments>
+    <Description>Resizing</Description>
+    <Scale>Iterations Per Minute</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>rpi3-cpu-test</Identifier>
+        <Value>16</Value>
+        <RawString>16:16:16</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-std=gnu99 -fopenmp -O2 -pthread -lz -lm -lgomp -lpthread"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/himeno-1.2.0</Identifier>
+    <Title>Himeno Benchmark</Title>
+    <AppVersion>3.0</AppVersion>
+    <Arguments></Arguments>
+    <Description>Poisson Pressure Solver</Description>
+    <Scale>MFLOPS</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>rpi3-cpu-test</Identifier>
+        <Value>31.79</Value>
+        <RawString>31.863015:31.83811:31.666795</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/c-ray-1.1.0</Identifier>
+    <Title>C-Ray</Title>
+    <AppVersion>1.1</AppVersion>
+    <Arguments></Arguments>
+    <Description>Total Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>rpi3-cpu-test</Identifier>
+        <Value>492.86</Value>
+        <RawString>494.339:491.134:493.114</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lm -lpthread -O3"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/compress-pbzip2-1.5.0</Identifier>
+    <Title>Parallel BZIP2 Compression</Title>
+    <AppVersion>1.1.12</AppVersion>
+    <Arguments></Arguments>
+    <Description>256MB File Compression</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>rpi3-cpu-test</Identifier>
+        <Value>50.93</Value>
+        <RawString>50.954106092453:50.946244001389:50.88796710968</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CXX","compiler":"g++","compiler-options":"-O2 -pthread -lbz2 -lpthread"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/smallpt-1.0.2</Identifier>
+    <Title>Smallpt</Title>
+    <AppVersion>1.0</AppVersion>
+    <Arguments></Arguments>
+    <Description>Global Illumination Renderer; 100 Samples</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>rpi3-cpu-test</Identifier>
+        <Value>2719</Value>
+        <RawString>2721:2717:2719</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CXX","compiler":"g++","compiler-options":"-fopenmp"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/crafty-1.3.0</Identifier>
+    <Title>Crafty</Title>
+    <AppVersion>23.4</AppVersion>
+    <Arguments></Arguments>
+    <Description>Elapsed Time</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>rpi3-cpu-test</Identifier>
+        <Value>0.18</Value>
+        <RawString>0.18:0.18:0.19</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lstdc++ -lm"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/encode-flac-1.5.0</Identifier>
+    <Title>FLAC Audio Encoding</Title>
+    <AppVersion>1.3.1</AppVersion>
+    <Arguments></Arguments>
+    <Description>WAV To FLAC</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>rpi3-cpu-test</Identifier>
+        <Value>456.33</Value>
+        <RawString>456.39008617401:455.56365394592:455.46118998528:458.4993391037:455.73602199554</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CXX","compiler":"g++","compiler-options":"-O2 -fvisibility=hidden -lm"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/encode-mp3-1.4.0</Identifier>
+    <Title>LAME MP3 Encoding</Title>
+    <AppVersion>3.99.3</AppVersion>
+    <Arguments></Arguments>
+    <Description>WAV To MP3</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>rpi3-cpu-test</Identifier>
+        <Value>187.75</Value>
+        <RawString>187.90924286842:187.99604797363:187.7528758049:187.57550287247:187.5246078968</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-O3 -fomit-frame-pointer -ffast-math -pipe -lm"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/ffmpeg-2.5.0</Identifier>
+    <Title>FFmpeg</Title>
+    <AppVersion>2.8.1</AppVersion>
+    <Arguments></Arguments>
+    <Description>H.264 HD To NTSC DV</Description>
+    <Scale>Seconds</Scale>
+    <Proportion>LIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>rpi3-cpu-test</Identifier>
+        <Value>495.12</Value>
+        <RawString>499.01299405098:493.26316189766:493.08928894997</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-lavdevice -lavfilter -lavformat -lavcodec -lswresample -lswscale -lavutil -lm -pthread -march=armv6 -std=c99 -fomit-frame-pointer -marm -O3 -fno-math-errno -fno-signed-zeros -fno-tree-vectorize"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+  <Result>
+    <Identifier>pts/openssl-1.9.0</Identifier>
+    <Title>OpenSSL</Title>
+    <AppVersion>1.0.1g</AppVersion>
+    <Arguments></Arguments>
+    <Description>RSA 4096-bit Performance</Description>
+    <Scale>Signs Per Second</Scale>
+    <Proportion>HIB</Proportion>
+    <DisplayFormat>BAR_GRAPH</DisplayFormat>
+    <Data>
+      <Entry>
+        <Identifier>rpi3-cpu-test</Identifier>
+        <Value>11.10</Value>
+        <RawString>11.1:11.1:11.1</RawString>
+        <JSON>{"compiler-options":{"compiler-type":"CC","compiler":"gcc","compiler-options":"-march=armv7-a -O3 -lssl -lcrypto -ldl"}}</JSON>
+      </Entry>
+    </Data>
+  </Result>
+</PhoronixTestSuite>

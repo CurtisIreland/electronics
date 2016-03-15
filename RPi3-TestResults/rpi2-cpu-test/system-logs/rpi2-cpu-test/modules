@@ -1,0 +1,17 @@
+cfg80211 389253 0 - Live 0x7f128000
+rfkill 16036 1 cfg80211, Live 0x7f11f000
+joydev 9024 0 - Live 0x7f118000
+evdev 10278 4 - Live 0x7f111000
+snd_bcm2835 19802 3 - Live 0x7f107000
+bcm2835_gpiomem 2860 0 - Live 0x7f103000
+snd_pcm 73442 1 snd_bcm2835, Live 0x7f0e6000
+snd_timer 18792 1 snd_pcm, Live 0x7f0dc000
+bcm2835_rng 1763 0 - Live 0x7f0d8000
+i2c_bcm2708 4920 0 - Live 0x7f0d3000
+spi_bcm2835 7074 0 - Live 0x7f0ce000
+snd 50779 9 snd_bcm2835,snd_pcm,snd_timer, Live 0x7f0b7000
+uio_pdrv_genirq 2944 0 - Live 0x7f0a7000
+uio 7753 1 uio_pdrv_genirq, Live 0x7f08f000
+i2c_dev 5671 0 - Live 0x7f08a000
+fuse 80694 3 - Live 0x7f06d000
+ipv6 338574 30 [permanent], Live 0x7f000000

@@ -1,0 +1,116 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Phoronix Test Suite v4.8.3 (Sokndal) [ http://www.phoronix-test-suite.com/ ]-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" font-family="sans-serif" viewbox="0 0 330 451" width="330" height="451">
+  <rect x="1" y="1" width="328" height="450" fill="#FEFEFE" stroke="#757575" stroke-width="1"/>
+  <rect x="1" y="1" width="329" height="450" fill="#FEFEFE" stroke="#757575" stroke-width="1"/>
+  <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
+    <image xlink:href="data:image/png;base64,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" x="20" y="37" width="160" height="83"/>
+  </a>
+  <line x1="200" y1="230" x2="330" y2="230" stroke="#BABABA" stroke-width="410" stroke-dasharray="65,65"/>
+  <line x1="165" y1="131" x2="165" y2="435" stroke="#949494" stroke-width="330" stroke-dasharray="16,16"/>
+  <line x1="200" y1="230" x2="330" y2="230" stroke="#757575" stroke-width="410" stroke-dasharray="1,64"/>
+  <rect x="1" y="1" width="328" height="25" fill="#231f20"/>
+  <text x="5" y="19" font-size="17" fill="#FEFEFE" text-anchor="start">RPi2 CPU Test</text>
+  <line x1="1" y1="25" x2="329" y2="25" stroke="#757575" stroke-width="1"/>
+  <a xlink:href="http://openbenchmarking.org/test/pts/mafft-1.4.0" xlink:show="new">
+    <text x="198" y="143" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Timed MAFFT Alignment</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/gcrypt-1.0.3" xlink:show="new">
+    <text x="198" y="159" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Gcrypt Library</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/tscp-1.2.0" xlink:show="new">
+    <text x="198" y="175" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">TSCP</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/john-the-ripper-1.5.1" xlink:show="new">
+    <text x="198" y="191" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">John The Ripper</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/john-the-ripper-1.5.1" xlink:show="new">
+    <text x="198" y="207" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">John The Ripper</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/graphics-magick-1.6.1" xlink:show="new">
+    <text x="198" y="223" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">GraphicsMagick</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/graphics-magick-1.6.1" xlink:show="new">
+    <text x="198" y="239" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">GraphicsMagick</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/graphics-magick-1.6.1" xlink:show="new">
+    <text x="198" y="255" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">GraphicsMagick</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/graphics-magick-1.6.1" xlink:show="new">
+    <text x="198" y="271" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">GraphicsMagick</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/himeno-1.2.0" xlink:show="new">
+    <text x="198" y="287" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Himeno Benchmark</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/compress-7zip-1.6.1" xlink:show="new">
+    <text x="198" y="303" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">7-Zip Compression</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/c-ray-1.1.0" xlink:show="new">
+    <text x="198" y="319" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">C-Ray</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/compress-pbzip2-1.5.0" xlink:show="new">
+    <text x="198" y="335" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Parallel BZIP2 Compression</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/smallpt-1.0.2" xlink:show="new">
+    <text x="198" y="351" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Smallpt</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/crafty-1.3.0" xlink:show="new">
+    <text x="198" y="367" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Crafty</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/encode-flac-1.5.0" xlink:show="new">
+    <text x="198" y="383" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">FLAC Audio Encoding</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/encode-mp3-1.4.0" xlink:show="new">
+    <text x="198" y="399" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">LAME MP3 Encoding</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/ffmpeg-2.5.0" xlink:show="new">
+    <text x="198" y="415" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">FFmpeg</text>
+  </a>
+  <a xlink:href="http://openbenchmarking.org/test/pts/openssl-1.9.0" xlink:show="new">
+    <text x="198" y="431" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">OpenSSL</text>
+  </a>
+  <text x="235.5" y="127" font-size="10" fill="#065695" font-weight="bold" text-anchor="end" transform="rotate(90 235.5 127)">rpi2-cpu-test</text>
+  <text x="300.5" y="127" font-size="10" fill="#065695" font-weight="bold" text-anchor="end" transform="rotate(90 300.5 127)">rpi3-cpu-test</text>
+  <text x="232.5" y="144" font-size="10" fill="#C80000" text-anchor="middle" xlink:title="STD Dev: 0.81%;  STD Error: 0.51">107.78</text>
+  <text x="232.5" y="160" font-size="10" fill="#005a00" text-anchor="middle" xlink:title="STD Dev: 0.30%;  STD Error: 29.63">17103</text>
+  <text x="232.5" y="176" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 0.42%;  STD Error: 199.34">105312</text>
+  <text x="232.5" y="192" font-size="10" fill="#C80000" text-anchor="middle" xlink:title="STD Dev: 1.76%;  STD Error: 2599554.21">256442333</text>
+  <text x="232.5" y="208" font-size="10" fill="#C80000" text-anchor="middle" xlink:title="STD Dev: 1.52%;  STD Error: 2.33">266</text>
+  <text x="232.5" y="224" font-size="10" fill="#005a00" text-anchor="middle" xlink:title="STD Dev: 2.71%;  STD Error: 0.33">21</text>
+  <text x="232.5" y="240" font-size="10" fill="#005a00" text-anchor="middle" xlink:title="">9</text>
+  <text x="232.5" y="256" font-size="10" fill="#C80000" text-anchor="middle" xlink:title="">9</text>
+  <text x="232.5" y="272" font-size="10" fill="#C80000" text-anchor="middle" xlink:title="">15</text>
+  <text x="232.5" y="288" font-size="10" fill="#005a00" text-anchor="middle" xlink:title="STD Dev: 5.48%;  STD Error: 1.09">48.83</text>
+  <text x="232.5" y="304" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 0.07%;  STD Error: 0.33">803</text>
+  <text x="232.5" y="320" font-size="10" fill="#C80000" text-anchor="middle" xlink:title="STD Dev: 1.88%;  STD Error: 5.64">519.12</text>
+  <text x="232.5" y="336" font-size="10" fill="#C80000" text-anchor="middle" xlink:title="STD Dev: 0.99%;  STD Error: 1.45">253.70</text>
+  <text x="232.5" y="352" font-size="10" fill="#005a00" text-anchor="middle" xlink:title="STD Dev: 1.05%;  STD Error: 16.17">2675</text>
+  <text x="232.5" y="368" font-size="10" fill="#005a00" text-anchor="middle" xlink:title="STD Dev: 6.77%">0.16</text>
+  <text x="232.5" y="384" font-size="10" fill="#005a00" text-anchor="middle" xlink:title="STD Dev: 0.36%;  STD Error: 0.51">312.74</text>
+  <text x="232.5" y="400" font-size="10" fill="#C80000" text-anchor="middle" xlink:title="STD Dev: 18.84%;  STD Error: 11.68">196.08</text>
+  <text x="232.5" y="416" font-size="10" fill="#C80000" text-anchor="middle" xlink:title="STD Dev: 0.14%;  STD Error: 0.47">590.73</text>
+  <text x="232.5" y="432" font-size="10" fill="#C80000" text-anchor="middle" xlink:title="">8</text>
+  <text x="297.5" y="144" font-size="10" fill="#005a00" text-anchor="middle" xlink:title="STD Dev: 2.68%;  STD Error: 1.41">90.89</text>
+  <text x="297.5" y="160" font-size="10" fill="#C80000" text-anchor="middle" xlink:title="STD Dev: 0.36%;  STD Error: 37.56">18043</text>
+  <text x="297.5" y="192" font-size="10" fill="#005a00" text-anchor="middle" xlink:title="STD Dev: 0.24%;  STD Error: 521000.00">373034000</text>
+  <text x="297.5" y="208" font-size="10" fill="#005a00" text-anchor="middle" xlink:title="">316</text>
+  <text x="297.5" y="224" font-size="10" fill="#005a00" text-anchor="middle" xlink:title="STD Dev: 2.79%;  STD Error: 0.33">21</text>
+  <text x="297.5" y="240" font-size="10" fill="#C80000" text-anchor="middle" xlink:title="">8</text>
+  <text x="297.5" y="256" font-size="10" fill="#005a00" text-anchor="middle" xlink:title="">10</text>
+  <text x="297.5" y="272" font-size="10" fill="#005a00" text-anchor="middle" xlink:title="">16</text>
+  <text x="297.5" y="288" font-size="10" fill="#C80000" text-anchor="middle" xlink:title="STD Dev: 0.34%;  STD Error: 0.06">31.79</text>
+  <text x="297.5" y="320" font-size="10" fill="#005a00" text-anchor="middle" xlink:title="STD Dev: 0.33%;  STD Error: 0.93">492.86</text>
+  <text x="297.5" y="336" font-size="10" fill="#005a00" text-anchor="middle" xlink:title="STD Dev: 0.07%;  STD Error: 0.02">50.93</text>
+  <text x="297.5" y="352" font-size="10" fill="#C80000" text-anchor="middle" xlink:title="STD Dev: 0.07%;  STD Error: 1.15">2719</text>
+  <text x="297.5" y="368" font-size="10" fill="#C80000" text-anchor="middle" xlink:title="STD Dev: 3.15%">0.18</text>
+  <text x="297.5" y="384" font-size="10" fill="#C80000" text-anchor="middle" xlink:title="STD Dev: 0.28%;  STD Error: 0.57">456.33</text>
+  <text x="297.5" y="400" font-size="10" fill="#005a00" text-anchor="middle" xlink:title="STD Dev: 0.11%;  STD Error: 0.09">187.75</text>
+  <text x="297.5" y="416" font-size="10" fill="#005a00" text-anchor="middle" xlink:title="STD Dev: 0.68%;  STD Error: 1.95">495.12</text>
+  <text x="297.5" y="432" font-size="10" fill="#005a00" text-anchor="middle" xlink:title="">11.10</text>
+  <line x1="165" y1="131" x2="165" y2="435" stroke="#949494" stroke-width="330" stroke-dasharray="1,15"/>
+  <rect x="0" y="435" width="330" height="16" fill="#231f20"/>
+  <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
+    <text x="328" y="448" font-size="10" fill="#FFFFFF" text-anchor="end" xlink:show="new">PHORONIX-TEST-SUITE.COM</text>
+  </a>
+</svg>

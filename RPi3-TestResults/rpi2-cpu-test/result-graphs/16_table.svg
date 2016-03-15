@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<!--Phoronix Test Suite v4.8.3 (Sokndal) [ http://www.phoronix-test-suite.com/ ]-->
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" font-family="sans-serif" viewbox="0 0 274 210" width="274" height="210">
+  <rect x="1" y="1" width="272" height="209" fill="#FEFEFE" stroke="#757575" stroke-width="1"/>
+  <rect x="1" y="1" width="273" height="209" fill="#FEFEFE" stroke="#757575" stroke-width="1"/>
+  <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
+    <image xlink:href="data:image/png;base64,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" x="31" y="72" width="80" height="42"/>
+  </a>
+  <line x1="142" y1="117" x2="186" y2="117" stroke="#BABABA" stroke-width="154" stroke-dasharray="44,44"/>
+  <rect x="186" y="40" width="88" height="154" fill="#949494"/>
+  <line x1="93" y1="146" x2="93" y2="194" stroke="#949494" stroke-width="186" stroke-dasharray="16,16"/>
+  <line x1="142" y1="117" x2="230" y2="117" stroke="#757575" stroke-width="154" stroke-dasharray="1,43"/>
+  <rect x="1" y="1" width="272" height="40" fill="#231f20"/>
+  <text x="5" y="19" font-size="17" fill="#FEFEFE" text-anchor="start">FLAC Audio Encoding</text>
+  <text x="5" y="33" font-size="11" fill="#FEFEFE" text-anchor="start">WAV To FLAC</text>
+  <line x1="1" y1="40" x2="273" y2="40" stroke="#757575" stroke-width="1"/>
+  <text x="140" y="158" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Results</text>
+  <text x="140" y="174" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Standard Error</text>
+  <text x="140" y="190" font-size="10" fill="#065695" font-weight="bold" text-anchor="end">Standard Deviation</text>
+  <text x="167" y="142" font-size="10" fill="#065695" font-weight="bold" text-anchor="end" transform="rotate(90 167 142)">rpi2-cpu-test</text>
+  <text x="164" y="159" font-size="10" fill="#065695" text-anchor="middle" xlink:title="STD Dev: 0.36%;  STD Error: 0.51">312.74</text>
+  <text x="164" y="175" font-size="10" fill="#065695" text-anchor="middle" xlink:title="">0.51</text>
+  <text x="164" y="191" font-size="10" fill="#065695" text-anchor="middle" xlink:title="">0.36%</text>
+  <line x1="93" y1="146" x2="93" y2="194" stroke="#949494" stroke-width="186" stroke-dasharray="1,15"/>
+  <rect x="0" y="194" width="274" height="16" fill="#231f20"/>
+  <a xlink:href="http://www.phoronix-test-suite.com/" xlink:show="new">
+    <text x="272" y="207" font-size="10" fill="#FFFFFF" text-anchor="end" xlink:show="new">PHORONIX-TEST-SUITE.COM</text>
+  </a>
+</svg>
