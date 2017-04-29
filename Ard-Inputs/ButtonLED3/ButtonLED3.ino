@@ -1,39 +1,53 @@
-#define RED_LED 12
-#define GREEN_LED 11
+#define RED_LED 8
+#define GREEN_LED 9
 #define BLUE_LED 10
 #define BUTTON_PIN 2
 
+int interval=200; // the time we need to wait
+unsigned long previousMillis=0; // millis() returns an unsigned long.
+
 int choose_led = 0;
-volatile int state = LOW;
+
+void change_led() {
+  unsigned long currentMillis = millis();
+  if (currentMillis - previousMillis >= interval){
+  if (choose_led == 0) {
+    digitalWrite(RED_LED, HIGH);
+    digitalWrite(GREEN_LED, LOW);
+    digitalWrite(BLUE_LED, LOW);
+    Serial.println("RED");
+  } else if (choose_led == 1) {
+    digitalWrite(RED_LED, LOW);
+    digitalWrite(GREEN_LED, HIGH);
+    digitalWrite(BLUE_LED, LOW);
+    Serial.println("GREEN");
+  } else if (choose_led == 2) {
+    digitalWrite(RED_LED, LOW);
+    digitalWrite(GREEN_LED, LOW);
+    digitalWrite(BLUE_LED, HIGH);
+    Serial.println("BLUE");
+  }
+  
+  choose_led = (choose_led + 1) % 3;
+  previousMillis = millis();
+}
+}
 
 void setup() {
   pinMode(RED_LED, OUTPUT);
   pinMode(GREEN_LED, OUTPUT);
   pinMode(BLUE_LED, OUTPUT);
-  pinMode(BUTTON_PIN, INPUT);
+  pinMode(BUTTON_PIN, INPUT_PULLUP);
   
   digitalWrite(RED_LED, LOW);
   digitalWrite(GREEN_LED, LOW);
   digitalWrite(BLUE_LED, LOW);
-  
-  attachInterrupt(0, blink, CHANGE);
+
+  Serial.begin(115200);
+  attachInterrupt(0, change_led, FALLING);
 }
+  
 
 void loop() {
-  if (choose_led == 0) {
-    digitalWrite(RED_LED, HIGH);
-    digitalWrite(GREEN_LED, LOW);
-  } else {
-    digitalWrite(RED_LED, LOW);
-    digitalWrite(GREEN_LED, HIGH);
-  }
   
-  choose_led = (choose_led + 1) % 2;
-  delay(500);
-}
-
-void blink()
-{
-  state = !state;
-  digitalWrite(BLUE_LED, state);
 }
