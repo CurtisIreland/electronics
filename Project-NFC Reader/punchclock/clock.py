@@ -9,13 +9,10 @@ time1 = ''
 card_read = ''
 card_name = ''
 
-def start_clock(targets):
-    return targets
-
 def scan_card(tag):
     global card_read, card_name
-    card_read = 'db4e7a3f'
-#    card_read = tag.identifier.encode('hex_codec')
+#    card_read = 'db4e7a3f'
+    card_read = tag.identifier.encode('hex_codec')
 
     clock_data = clock_db.clock_db()
     card_name = clock_data.get_employee(card_read)
@@ -24,11 +21,10 @@ def scan_card(tag):
     si_status.config(text="Scanned: " + card_name)
     button_frame.place(button_frame.pi)
     button_frame.visible = not button_frame.visible
-    btnToggle.place_forget()
+#    btnToggle.place_forget()
 
 rdwr_options = {
     'targets': ['106A'],
-    'on-startup': start_clock,
     'on-connect': scan_card,
 }
 
@@ -106,8 +102,8 @@ button_frame.pi = button_frame.place_info()
 button_frame.place_forget()
 
 # Generate buttons
-btnToggle = tk.Button(text="Test Scan", command=lambda: scan_card(0))
-btnToggle.place(x=70, y=150)
+#btnToggle = tk.Button(text="Test Scan", command=lambda: scan_card(0))
+#btnToggle.place(x=70, y=150)
 
 button_si=tk.Button(button_frame, text="Sign In", command=si_message)
 button_si.place(x=50, y=50, width=200, height=50)
@@ -117,7 +113,7 @@ button_so.place(x=300, y=50, width=200, height=50)
 tick()
 
 # Initialize card reader
-#with nfc.ContactlessFrontend('tty:USB0:pn532') as clf:
-#    tag = clf.connect(rdwr=rdwr_options)
+with nfc.ContactlessFrontend('tty:USB0:pn532') as clf:
+    tag = clf.connect(rdwr=rdwr_options)
 
 root.mainloop()
