@@ -1,0 +1,6 @@
+Project Inspiration: https://www.instructables.com/id/YouTube-Subscriber-Counter-With-ESP8266/
+Find YouTube Channel ID: http://www.youtube.com/account_advanced
+Create API Key: https://console.developers.google.com/projectselector/apis
+Test Channel ID and API Key: https://www.googleapis.com/youtube/v3/channels?part=statistics&id=YouTubeChannelId&key=PutYourNewlyGeneratedKeyHere
+
+Arduino Timer Library: https://raw.githubusercontent.com/osoyoo/Osoyoo-development-kits/master/Arduino%20Libraries/Timermaster.zip
