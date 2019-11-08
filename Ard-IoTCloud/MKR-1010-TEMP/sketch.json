@@ -1,0 +1,1 @@
+{"cpu":{"fqbn":"arduino:samd:mkrwifi1010","name":"Arduino MKR WiFi 1010","port":""},"included_libs":[{"name":"DallasTemperature","version":"3.8.0"}],"secrets":[{"name":"SECRET_SSID","value":"","isOptional":false},{"name":"SECRET_PASS","value":"","isOptional":false}]}
