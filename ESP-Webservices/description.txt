@@ -1,0 +1,2 @@
+JSON Deserializer: https://arduinojson.org/v6/assistant/
+AccuWeather Developer: https://developer.accuweather.com/
