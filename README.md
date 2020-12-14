@@ -1,4 +1,4 @@
-# electronics
+# Basement Electronics
 Code examples used in the Basement Electronics YouTube series
 
 >https://www.youtube.com/c/BasementElectronics
