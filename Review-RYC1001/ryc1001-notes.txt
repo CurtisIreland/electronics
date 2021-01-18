@@ -1,0 +1,54 @@
+Receive in Registration
+<username>
+<password>
+<Network_ID>
+<Device_ID>
+<URL>
+
+<ClientID> = <username>####
+
+Subscription Topics
+api/command/<Network_ID>/#
+api/command_update/<Network_ID>/#
+api/notification/<Network_ID>/#
+api/response/command/get@<ClientID>
+
+
+JSON Data Structures for Publish
+{
+ "action": "command/insert",
+ "deviceId": "<Device_ID>",
+ "command": {
+ "command": "Control Temperature",
+ "parameters": {"Control":"Temperature"},
+ "status":"initialize",
+ "result": {"temperature": "-1"}
+ }
+}
+=> Will return in subscription ['command']['id'] to be used as CommandId in update and get commands
+
+{
+ "action": "command/update",
+ "deviceId": "<Device_ID>",
+ "commandId": <command=>id returned in command/insert>,
+ "command": {
+ "status": "update",
+ "result": {"temperature": "28"}
+ }
+}
+
+
+{
+ "action": "notification/insert",
+ "deviceId": "<Device_ID>",
+ "notification": {
+ "notification": "dht",
+ "parameters": {"temperature": "25"}
+ }
+}
+
+{
+ "action": "command/get",
+ "deviceId": "<Device_ID>",
+ "commandId": <command=>id returned in command/insert>
+}
