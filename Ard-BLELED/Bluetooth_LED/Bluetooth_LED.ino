@@ -1,5 +1,5 @@
 /*
-  LED
+  Bluetooth controlled LED
 
   This example creates a Bluetooth® Low Energy peripheral with service that contains a
   characteristic to control an LED.
