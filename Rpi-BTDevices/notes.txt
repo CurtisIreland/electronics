@@ -1,0 +1,31 @@
+BLEAK Python Library:
+https://github.com/hbldh/bleak
+
+GitHub for Demonstration Scripts:
+https://github.com/CurtisIreland/electronics/tree/master/Rpi-BTDevices
+
+List local Bluetooth Devices
+$ hcitool dev
+
+Use bluetoothctl to connect to device
+$ bluetoothctl
+> scan on
+(Wait for device to appear in list)
+> trust EE:XX:XX:XX:XX:XX
+> connect EE:XX:XX:XX:XX:XX
+
+
+LED BLE: 7C:9E:BD:3C:60:46
+Service: 19B10000-E8F2-537E-4F6C-D104768A1214
+Characteristic: 19B10001-E8F2-537E-4F6C-D104768A1214
+
+gatttool -b 7C:9E:BD:3C:60:46 --char-desc 
+gatttool -b 7C:9E:BD:3C:60:46 --char-read -a 0x000c
+gatttool -b 7C:9E:BD:3C:60:46 --char-write-req -a 0x000c -n ff
+gatttool -b 7C:9E:BD:3C:60:46 --char-read -a 0x000c
+gatttool -b 7C:9E:BD:3C:60:46 --char-write-req -a 0x000c -n 00
+
+https://github.com/hbldh/bleak
+
+sudo apt install -y python3-bleak
+
