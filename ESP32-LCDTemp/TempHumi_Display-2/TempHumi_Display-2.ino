@@ -4,7 +4,7 @@
  with an attached ESP32-S3 microcontroller.
 
  Project is recorded on my GitHub: 
-   https://github.com/CurtisIreland/electronics/ESP32-LCDTemp
+   https://github.com/CurtisIreland/electronics/tree/master/ESP32-LCDTemp
 
  All code is licensed under Creative Commons
  Video pubish date: October 26, 2024

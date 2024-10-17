@@ -6,7 +6,7 @@
  This code is incomplete and will be finished in the next part.
 
  Project is recorded on my GitHub: 
-   https://github.com/CurtisIreland/electronics/ESP32-LCDTemp
+   https://github.com/CurtisIreland/electronics/tree/master/ESP32-LCDTemp
 
  All code is licensed under Creative Commons
  Video pubish date: October 19, 2024
